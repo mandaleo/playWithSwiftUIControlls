@@ -20,6 +20,7 @@
 		D9D7E7F92441D9D90030643A /* TileImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7F82441D9D90030643A /* TileImagesView.swift */; };
 		D9D7E7FC2441DB1F0030643A /* RenderGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7FB2441DB1F0030643A /* RenderGradientView.swift */; };
 		D9D7E7FF244217520030643A /* SolidShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7FE244217520030643A /* SolidShapesView.swift */; };
+		D9D7E802244219960030643A /* BackgroundsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E801244219960030643A /* BackgroundsViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		D9D7E7F82441D9D90030643A /* TileImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileImagesView.swift; sourceTree = "<group>"; };
 		D9D7E7FB2441DB1F0030643A /* RenderGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderGradientView.swift; sourceTree = "<group>"; };
 		D9D7E7FE244217520030643A /* SolidShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolidShapesView.swift; sourceTree = "<group>"; };
+		D9D7E801244219960030643A /* BackgroundsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundsViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		D9D7E7D92441CBF80030643A /* playWithSwiftUIControls */ = {
 			isa = PBXGroup;
 			children = (
+				D9D7E800244219760030643A /* Backgrounds */,
 				D9D7E7FD2442173E0030643A /* Shapes */,
 				D9D7E7FA2441DB000030643A /* Gradient */,
 				D9D7E7F32441D52C0030643A /* Images */,
@@ -126,6 +129,14 @@
 				D9D7E7FE244217520030643A /* SolidShapesView.swift */,
 			);
 			path = Shapes;
+			sourceTree = "<group>";
+		};
+		D9D7E800244219760030643A /* Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				D9D7E801244219960030643A /* BackgroundsViews.swift */,
+			);
+			path = Backgrounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,6 +217,7 @@
 				D9D7E7F02441CFCE0030643A /* TruncateTextsViews.swift in Sources */,
 				D9D7E7F72441D8D40030643A /* ScaleImagesView.swift in Sources */,
 				D9D7E7DD2441CBF80030643A /* SceneDelegate.swift in Sources */,
+				D9D7E802244219960030643A /* BackgroundsViews.swift in Sources */,
 				D9D7E7F22441D08D0030643A /* StyleTextsViews.swift in Sources */,
 				D9D7E7F92441D9D90030643A /* TileImagesView.swift in Sources */,
 				D9D7E7DF2441CBF80030643A /* ContentView.swift in Sources */,
