@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D931858124421E7D0050F059 /* SpacersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D931858024421E7D0050F059 /* SpacersView.swift */; };
 		D9318583244223770050F059 /* ZStacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9318582244223770050F059 /* ZStacksView.swift */; };
+		D9318586244226120050F059 /* ReturDifferentsTypesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9318585244226120050F059 /* ReturDifferentsTypesView.swift */; };
 		D9D7E7DB2441CBF80030643A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7DA2441CBF80030643A /* AppDelegate.swift */; };
 		D9D7E7DD2441CBF80030643A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7DC2441CBF80030643A /* SceneDelegate.swift */; };
 		D9D7E7DF2441CBF80030643A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7DE2441CBF80030643A /* ContentView.swift */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		D931858024421E7D0050F059 /* SpacersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacersView.swift; sourceTree = "<group>"; };
 		D9318582244223770050F059 /* ZStacksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStacksView.swift; sourceTree = "<group>"; };
+		D9318585244226120050F059 /* ReturDifferentsTypesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturDifferentsTypesView.swift; sourceTree = "<group>"; };
 		D9D7E7D72441CBF80030643A /* playWithSwiftUIControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playWithSwiftUIControls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D7E7DA2441CBF80030643A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9D7E7DC2441CBF80030643A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,14 @@
 			path = Spacers;
 			sourceTree = "<group>";
 		};
+		D9318584244225E20050F059 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D9318585244226120050F059 /* ReturDifferentsTypesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		D9D7E7CE2441CBF80030643A = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +114,7 @@
 				D9D7E80324421B640030643A /* StacksView */,
 				D931857E24421E260050F059 /* Paddings */,
 				D931857F24421E630050F059 /* Spacers */,
+				D9318584244225E20050F059 /* Views */,
 				D9D7E7DA2441CBF80030643A /* AppDelegate.swift */,
 				D9D7E7DC2441CBF80030643A /* SceneDelegate.swift */,
 				D9D7E7DE2441CBF80030643A /* ContentView.swift */,
@@ -251,6 +262,7 @@
 				D931858124421E7D0050F059 /* SpacersView.swift in Sources */,
 				D9D7E80824421CED0030643A /* PaddingsView.swift in Sources */,
 				D9D7E7F52441D54E0030643A /* DrawImagesView.swift in Sources */,
+				D9318586244226120050F059 /* ReturDifferentsTypesView.swift in Sources */,
 				D9D7E80524421B940030643A /* AlignmentStacksView.swift in Sources */,
 				D9D7E7DB2441CBF80030643A /* AppDelegate.swift in Sources */,
 				D9D7E7F02441CFCE0030643A /* TruncateTextsViews.swift in Sources */,
