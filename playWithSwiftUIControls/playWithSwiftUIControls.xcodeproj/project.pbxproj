@@ -22,6 +22,7 @@
 		D9D7E7FF244217520030643A /* SolidShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7FE244217520030643A /* SolidShapesView.swift */; };
 		D9D7E802244219960030643A /* BackgroundsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E801244219960030643A /* BackgroundsViews.swift */; };
 		D9D7E80524421B940030643A /* AlignmentStacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E80424421B940030643A /* AlignmentStacksView.swift */; };
+		D9D7E80824421CED0030643A /* PaddingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E80724421CED0030643A /* PaddingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		D9D7E7FE244217520030643A /* SolidShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolidShapesView.swift; sourceTree = "<group>"; };
 		D9D7E801244219960030643A /* BackgroundsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundsViews.swift; sourceTree = "<group>"; };
 		D9D7E80424421B940030643A /* AlignmentStacksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentStacksView.swift; sourceTree = "<group>"; };
+		D9D7E80724421CED0030643A /* PaddingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D931857E24421E260050F059 /* Paddings */ = {
+			isa = PBXGroup;
+			children = (
+				D9D7E80724421CED0030643A /* PaddingsView.swift */,
+			);
+			path = Paddings;
+			sourceTree = "<group>";
+		};
 		D9D7E7CE2441CBF80030643A = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +90,7 @@
 				D9D7E7FD2442173E0030643A /* Shapes */,
 				D9D7E800244219760030643A /* Backgrounds */,
 				D9D7E80324421B640030643A /* StacksView */,
+				D931857E24421E260050F059 /* Paddings */,
 				D9D7E7DA2441CBF80030643A /* AppDelegate.swift */,
 				D9D7E7DC2441CBF80030643A /* SceneDelegate.swift */,
 				D9D7E7DE2441CBF80030643A /* ContentView.swift */,
@@ -223,6 +234,7 @@
 			files = (
 				D9D7E7FF244217520030643A /* SolidShapesView.swift in Sources */,
 				D9D7E7FC2441DB1F0030643A /* RenderGradientView.swift in Sources */,
+				D9D7E80824421CED0030643A /* PaddingsView.swift in Sources */,
 				D9D7E7F52441D54E0030643A /* DrawImagesView.swift in Sources */,
 				D9D7E80524421B940030643A /* AlignmentStacksView.swift in Sources */,
 				D9D7E7DB2441CBF80030643A /* AppDelegate.swift in Sources */,
