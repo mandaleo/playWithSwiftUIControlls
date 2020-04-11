@@ -18,6 +18,7 @@
 		D93185932442385B0050F059 /* VerticalScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93185922442385B0050F059 /* VerticalScrollView.swift */; };
 		D9318595244238C00050F059 /* HorizontalScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9318594244238C00050F059 /* HorizontalScrollView.swift */; };
 		D931859824423A760050F059 /* CoverFlowEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D931859724423A760050F059 /* CoverFlowEffectView.swift */; };
+		D931859A244246900050F059 /* DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9318599244246900050F059 /* DragGestureView.swift */; };
 		D9D7E7DB2441CBF80030643A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7DA2441CBF80030643A /* AppDelegate.swift */; };
 		D9D7E7DD2441CBF80030643A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7DC2441CBF80030643A /* SceneDelegate.swift */; };
 		D9D7E7DF2441CBF80030643A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7DE2441CBF80030643A /* ContentView.swift */; };
@@ -48,6 +49,7 @@
 		D93185922442385B0050F059 /* VerticalScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalScrollView.swift; sourceTree = "<group>"; };
 		D9318594244238C00050F059 /* HorizontalScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalScrollView.swift; sourceTree = "<group>"; };
 		D931859724423A760050F059 /* CoverFlowEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverFlowEffectView.swift; sourceTree = "<group>"; };
+		D9318599244246900050F059 /* DragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView.swift; sourceTree = "<group>"; };
 		D9D7E7D72441CBF80030643A /* playWithSwiftUIControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playWithSwiftUIControls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D7E7DA2441CBF80030643A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9D7E7DC2441CBF80030643A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				D931859724423A760050F059 /* CoverFlowEffectView.swift */,
+				D9318599244246900050F059 /* DragGestureView.swift */,
 			);
 			path = Effects;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 				D9D7E80524421B940030643A /* AlignmentStacksView.swift in Sources */,
 				D9D7E7DB2441CBF80030643A /* AppDelegate.swift in Sources */,
 				D931858C24422CC30050F059 /* CustomFrameView.swift in Sources */,
+				D931859A244246900050F059 /* DragGestureView.swift in Sources */,
 				D931858A24422B370050F059 /* DifferentsLayoutUsingSizeClasses.swift in Sources */,
 				D9D7E7F02441CFCE0030643A /* TruncateTextsViews.swift in Sources */,
 				D9318595244238C00050F059 /* HorizontalScrollView.swift in Sources */,
