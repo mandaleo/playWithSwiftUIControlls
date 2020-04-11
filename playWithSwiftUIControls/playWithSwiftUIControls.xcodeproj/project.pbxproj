@@ -15,6 +15,8 @@
 		D931858C24422CC30050F059 /* CustomFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D931858B24422CC30050F059 /* CustomFrameView.swift */; };
 		D931858E24422DFD0050F059 /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D931858D24422DFD0050F059 /* GeometryReaderView.swift */; };
 		D93185902442311F0050F059 /* IgnoreSafeAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D931858F2442311F0050F059 /* IgnoreSafeAreaView.swift */; };
+		D93185932442385B0050F059 /* VerticalScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93185922442385B0050F059 /* VerticalScrollView.swift */; };
+		D9318595244238C00050F059 /* HorizontalScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9318594244238C00050F059 /* HorizontalScrollView.swift */; };
 		D9D7E7DB2441CBF80030643A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7DA2441CBF80030643A /* AppDelegate.swift */; };
 		D9D7E7DD2441CBF80030643A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7DC2441CBF80030643A /* SceneDelegate.swift */; };
 		D9D7E7DF2441CBF80030643A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7DE2441CBF80030643A /* ContentView.swift */; };
@@ -42,6 +44,8 @@
 		D931858B24422CC30050F059 /* CustomFrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFrameView.swift; sourceTree = "<group>"; };
 		D931858D24422DFD0050F059 /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
 		D931858F2442311F0050F059 /* IgnoreSafeAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoreSafeAreaView.swift; sourceTree = "<group>"; };
+		D93185922442385B0050F059 /* VerticalScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalScrollView.swift; sourceTree = "<group>"; };
+		D9318594244238C00050F059 /* HorizontalScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalScrollView.swift; sourceTree = "<group>"; };
 		D9D7E7D72441CBF80030643A /* playWithSwiftUIControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playWithSwiftUIControls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D7E7DA2441CBF80030643A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9D7E7DC2441CBF80030643A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +106,15 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		D93185912442382A0050F059 /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				D93185922442385B0050F059 /* VerticalScrollView.swift */,
+				D9318594244238C00050F059 /* HorizontalScrollView.swift */,
+			);
+			path = ScrollView;
+			sourceTree = "<group>";
+		};
 		D9D7E7CE2441CBF80030643A = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +143,7 @@
 				D931857E24421E260050F059 /* Paddings */,
 				D931857F24421E630050F059 /* Spacers */,
 				D9318584244225E20050F059 /* Views */,
+				D93185912442382A0050F059 /* ScrollView */,
 				D9D7E7DA2441CBF80030643A /* AppDelegate.swift */,
 				D9D7E7DC2441CBF80030643A /* SceneDelegate.swift */,
 				D9D7E7DE2441CBF80030643A /* ContentView.swift */,
@@ -283,12 +297,14 @@
 				D931858C24422CC30050F059 /* CustomFrameView.swift in Sources */,
 				D931858A24422B370050F059 /* DifferentsLayoutUsingSizeClasses.swift in Sources */,
 				D9D7E7F02441CFCE0030643A /* TruncateTextsViews.swift in Sources */,
+				D9318595244238C00050F059 /* HorizontalScrollView.swift in Sources */,
 				D9D7E7F72441D8D40030643A /* ScaleImagesView.swift in Sources */,
 				D9D7E7DD2441CBF80030643A /* SceneDelegate.swift in Sources */,
 				D931858E24422DFD0050F059 /* GeometryReaderView.swift in Sources */,
 				D93185902442311F0050F059 /* IgnoreSafeAreaView.swift in Sources */,
 				D9318588244227860050F059 /* ForEachOfCreateView.swift in Sources */,
 				D9D7E802244219960030643A /* BackgroundsViews.swift in Sources */,
+				D93185932442385B0050F059 /* VerticalScrollView.swift in Sources */,
 				D9D7E7F22441D08D0030643A /* StyleTextsViews.swift in Sources */,
 				D9D7E7F92441D9D90030643A /* TileImagesView.swift in Sources */,
 				D9318583244223770050F059 /* ZStacksView.swift in Sources */,
