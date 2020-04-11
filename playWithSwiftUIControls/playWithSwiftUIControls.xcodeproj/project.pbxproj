@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D931858124421E7D0050F059 /* SpacersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D931858024421E7D0050F059 /* SpacersView.swift */; };
 		D9D7E7DB2441CBF80030643A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7DA2441CBF80030643A /* AppDelegate.swift */; };
 		D9D7E7DD2441CBF80030643A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7DC2441CBF80030643A /* SceneDelegate.swift */; };
 		D9D7E7DF2441CBF80030643A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7DE2441CBF80030643A /* ContentView.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D931858024421E7D0050F059 /* SpacersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacersView.swift; sourceTree = "<group>"; };
 		D9D7E7D72441CBF80030643A /* playWithSwiftUIControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playWithSwiftUIControls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D7E7DA2441CBF80030643A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9D7E7DC2441CBF80030643A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +67,14 @@
 			path = Paddings;
 			sourceTree = "<group>";
 		};
+		D931857F24421E630050F059 /* Spacers */ = {
+			isa = PBXGroup;
+			children = (
+				D931858024421E7D0050F059 /* SpacersView.swift */,
+			);
+			path = Spacers;
+			sourceTree = "<group>";
+		};
 		D9D7E7CE2441CBF80030643A = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +101,7 @@
 				D9D7E800244219760030643A /* Backgrounds */,
 				D9D7E80324421B640030643A /* StacksView */,
 				D931857E24421E260050F059 /* Paddings */,
+				D931857F24421E630050F059 /* Spacers */,
 				D9D7E7DA2441CBF80030643A /* AppDelegate.swift */,
 				D9D7E7DC2441CBF80030643A /* SceneDelegate.swift */,
 				D9D7E7DE2441CBF80030643A /* ContentView.swift */,
@@ -234,6 +245,7 @@
 			files = (
 				D9D7E7FF244217520030643A /* SolidShapesView.swift in Sources */,
 				D9D7E7FC2441DB1F0030643A /* RenderGradientView.swift in Sources */,
+				D931858124421E7D0050F059 /* SpacersView.swift in Sources */,
 				D9D7E80824421CED0030643A /* PaddingsView.swift in Sources */,
 				D9D7E7F52441D54E0030643A /* DrawImagesView.swift in Sources */,
 				D9D7E80524421B940030643A /* AlignmentStacksView.swift in Sources */,
