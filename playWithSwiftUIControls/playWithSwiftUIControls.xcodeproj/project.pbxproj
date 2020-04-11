@@ -15,6 +15,10 @@
 		D9D7E7E72441CBFC0030643A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9D7E7E52441CBFC0030643A /* LaunchScreen.storyboard */; };
 		D9D7E7F02441CFCE0030643A /* TruncateTextsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7EF2441CFCE0030643A /* TruncateTextsViews.swift */; };
 		D9D7E7F22441D08D0030643A /* StyleTextsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7F12441D08D0030643A /* StyleTextsViews.swift */; };
+		D9D7E7F52441D54E0030643A /* DrawImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7F42441D54E0030643A /* DrawImagesView.swift */; };
+		D9D7E7F72441D8D40030643A /* ScaleImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7F62441D8D40030643A /* ScaleImagesView.swift */; };
+		D9D7E7F92441D9D90030643A /* TileImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7F82441D9D90030643A /* TileImagesView.swift */; };
+		D9D7E7FC2441DB1F0030643A /* RenderGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7FB2441DB1F0030643A /* RenderGradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		D9D7E7E82441CBFC0030643A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9D7E7EF2441CFCE0030643A /* TruncateTextsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruncateTextsViews.swift; sourceTree = "<group>"; };
 		D9D7E7F12441D08D0030643A /* StyleTextsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleTextsViews.swift; sourceTree = "<group>"; };
+		D9D7E7F42441D54E0030643A /* DrawImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawImagesView.swift; sourceTree = "<group>"; };
+		D9D7E7F62441D8D40030643A /* ScaleImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleImagesView.swift; sourceTree = "<group>"; };
+		D9D7E7F82441D9D90030643A /* TileImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileImagesView.swift; sourceTree = "<group>"; };
+		D9D7E7FB2441DB1F0030643A /* RenderGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderGradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,8 @@
 		D9D7E7D92441CBF80030643A /* playWithSwiftUIControls */ = {
 			isa = PBXGroup;
 			children = (
+				D9D7E7FA2441DB000030643A /* Gradient */,
+				D9D7E7F32441D52C0030643A /* Images */,
 				D9D7E7EE2441CFB10030643A /* Text */,
 				D9D7E7DA2441CBF80030643A /* AppDelegate.swift */,
 				D9D7E7DC2441CBF80030643A /* SceneDelegate.swift */,
@@ -87,6 +97,24 @@
 				D9D7E7F12441D08D0030643A /* StyleTextsViews.swift */,
 			);
 			path = Text;
+			sourceTree = "<group>";
+		};
+		D9D7E7F32441D52C0030643A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D9D7E7F42441D54E0030643A /* DrawImagesView.swift */,
+				D9D7E7F62441D8D40030643A /* ScaleImagesView.swift */,
+				D9D7E7F82441D9D90030643A /* TileImagesView.swift */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		D9D7E7FA2441DB000030643A /* Gradient */ = {
+			isa = PBXGroup;
+			children = (
+				D9D7E7FB2441DB1F0030643A /* RenderGradientView.swift */,
+			);
+			path = Gradient;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,10 +188,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9D7E7FC2441DB1F0030643A /* RenderGradientView.swift in Sources */,
+				D9D7E7F52441D54E0030643A /* DrawImagesView.swift in Sources */,
 				D9D7E7DB2441CBF80030643A /* AppDelegate.swift in Sources */,
 				D9D7E7F02441CFCE0030643A /* TruncateTextsViews.swift in Sources */,
+				D9D7E7F72441D8D40030643A /* ScaleImagesView.swift in Sources */,
 				D9D7E7DD2441CBF80030643A /* SceneDelegate.swift in Sources */,
 				D9D7E7F22441D08D0030643A /* StyleTextsViews.swift in Sources */,
+				D9D7E7F92441D9D90030643A /* TileImagesView.swift in Sources */,
 				D9D7E7DF2441CBF80030643A /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
