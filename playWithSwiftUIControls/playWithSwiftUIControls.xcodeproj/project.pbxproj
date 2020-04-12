@@ -19,6 +19,7 @@
 		D9318595244238C00050F059 /* HorizontalScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9318594244238C00050F059 /* HorizontalScrollView.swift */; };
 		D931859824423A760050F059 /* CoverFlowEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D931859724423A760050F059 /* CoverFlowEffectView.swift */; };
 		D931859A244246900050F059 /* DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9318599244246900050F059 /* DragGestureView.swift */; };
+		D931859D24438E5C0050F059 /* GridStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D931859C24438E5C0050F059 /* GridStackView.swift */; };
 		D9D7E7DB2441CBF80030643A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7DA2441CBF80030643A /* AppDelegate.swift */; };
 		D9D7E7DD2441CBF80030643A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7DC2441CBF80030643A /* SceneDelegate.swift */; };
 		D9D7E7DF2441CBF80030643A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7DE2441CBF80030643A /* ContentView.swift */; };
@@ -50,6 +51,7 @@
 		D9318594244238C00050F059 /* HorizontalScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalScrollView.swift; sourceTree = "<group>"; };
 		D931859724423A760050F059 /* CoverFlowEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverFlowEffectView.swift; sourceTree = "<group>"; };
 		D9318599244246900050F059 /* DragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView.swift; sourceTree = "<group>"; };
+		D931859C24438E5C0050F059 /* GridStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridStackView.swift; sourceTree = "<group>"; };
 		D9D7E7D72441CBF80030643A /* playWithSwiftUIControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playWithSwiftUIControls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D7E7DA2441CBF80030643A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9D7E7DC2441CBF80030643A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -128,6 +130,14 @@
 			path = Effects;
 			sourceTree = "<group>";
 		};
+		D931859B24438E3D0050F059 /* GridView */ = {
+			isa = PBXGroup;
+			children = (
+				D931859C24438E5C0050F059 /* GridStackView.swift */,
+			);
+			path = GridView;
+			sourceTree = "<group>";
+		};
 		D9D7E7CE2441CBF80030643A = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +168,7 @@
 				D9318584244225E20050F059 /* Views */,
 				D93185912442382A0050F059 /* ScrollView */,
 				D931859624423A5A0050F059 /* Effects */,
+				D931859B24438E3D0050F059 /* GridView */,
 				D9D7E7DA2441CBF80030643A /* AppDelegate.swift */,
 				D9D7E7DC2441CBF80030643A /* SceneDelegate.swift */,
 				D9D7E7DE2441CBF80030643A /* ContentView.swift */,
@@ -325,6 +336,7 @@
 				D9D7E7F92441D9D90030643A /* TileImagesView.swift in Sources */,
 				D9318583244223770050F059 /* ZStacksView.swift in Sources */,
 				D9D7E7DF2441CBF80030643A /* ContentView.swift in Sources */,
+				D931859D24438E5C0050F059 /* GridStackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
