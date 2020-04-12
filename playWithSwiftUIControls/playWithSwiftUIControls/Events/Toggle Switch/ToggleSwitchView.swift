@@ -9,13 +9,23 @@
 import SwiftUI
 
 struct ToggleSwitchView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+  @State private var showGreeting = true
+  
+  var body: some View {
+    VStack {
+      Toggle(isOn: $showGreeting) {
+        Text("Show welcome message")
+      }.padding()
+      
+      if showGreeting {
+        Text("Hello World!")
+      }
     }
+  }
 }
 
 struct ToggleSwitchView_Previews: PreviewProvider {
-    static var previews: some View {
-        ToggleSwitchView()
-    }
+  static var previews: some View {
+    ToggleSwitchView()
+  }
 }
