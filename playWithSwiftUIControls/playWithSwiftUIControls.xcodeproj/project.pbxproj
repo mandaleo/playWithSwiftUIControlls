@@ -21,6 +21,8 @@
 		D931859A244246900050F059 /* DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9318599244246900050F059 /* DragGestureView.swift */; };
 		D931859D24438E5C0050F059 /* GridStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D931859C24438E5C0050F059 /* GridStackView.swift */; };
 		D93185A2244392D00050F059 /* ToggleSwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93185A1244392D00050F059 /* ToggleSwitchView.swift */; };
+		D93185A5244393DB0050F059 /* TappableButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93185A4244393DB0050F059 /* TappableButtonView.swift */; };
+		D93185A7244395420050F059 /* DisableOverlaycolorForImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93185A6244395420050F059 /* DisableOverlaycolorForImagesView.swift */; };
 		D9D7E7DB2441CBF80030643A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7DA2441CBF80030643A /* AppDelegate.swift */; };
 		D9D7E7DD2441CBF80030643A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7DC2441CBF80030643A /* SceneDelegate.swift */; };
 		D9D7E7DF2441CBF80030643A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7DE2441CBF80030643A /* ContentView.swift */; };
@@ -54,6 +56,8 @@
 		D9318599244246900050F059 /* DragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView.swift; sourceTree = "<group>"; };
 		D931859C24438E5C0050F059 /* GridStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridStackView.swift; sourceTree = "<group>"; };
 		D93185A1244392D00050F059 /* ToggleSwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleSwitchView.swift; sourceTree = "<group>"; };
+		D93185A4244393DB0050F059 /* TappableButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappableButtonView.swift; sourceTree = "<group>"; };
+		D93185A6244395420050F059 /* DisableOverlaycolorForImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisableOverlaycolorForImagesView.swift; sourceTree = "<group>"; };
 		D9D7E7D72441CBF80030643A /* playWithSwiftUIControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playWithSwiftUIControls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D7E7DA2441CBF80030643A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9D7E7DC2441CBF80030643A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -163,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				D93185A0244392A80050F059 /* Toggle Switch */,
+				D93185A3244393CA0050F059 /* Tappable Button */,
 			);
 			path = Events;
 			sourceTree = "<group>";
@@ -173,6 +178,14 @@
 				D93185A1244392D00050F059 /* ToggleSwitchView.swift */,
 			);
 			path = "Toggle Switch";
+			sourceTree = "<group>";
+		};
+		D93185A3244393CA0050F059 /* Tappable Button */ = {
+			isa = PBXGroup;
+			children = (
+				D93185A4244393DB0050F059 /* TappableButtonView.swift */,
+			);
+			path = "Tappable Button";
 			sourceTree = "<group>";
 		};
 		D9D7E7CE2441CBF80030643A = {
@@ -230,6 +243,7 @@
 				D9D7E7F42441D54E0030643A /* DrawImagesView.swift */,
 				D9D7E7F62441D8D40030643A /* ScaleImagesView.swift */,
 				D9D7E7F82441D9D90030643A /* TileImagesView.swift */,
+				D93185A6244395420050F059 /* DisableOverlaycolorForImagesView.swift */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -350,6 +364,7 @@
 				D931858C24422CC30050F059 /* CustomFrameView.swift in Sources */,
 				D931859A244246900050F059 /* DragGestureView.swift in Sources */,
 				D931858A24422B370050F059 /* DifferentsLayoutUsingSizeClasses.swift in Sources */,
+				D93185A7244395420050F059 /* DisableOverlaycolorForImagesView.swift in Sources */,
 				D9D7E7F02441CFCE0030643A /* TruncateTextsViews.swift in Sources */,
 				D9318595244238C00050F059 /* HorizontalScrollView.swift in Sources */,
 				D9D7E7F72441D8D40030643A /* ScaleImagesView.swift in Sources */,
@@ -365,6 +380,7 @@
 				D9318583244223770050F059 /* ZStacksView.swift in Sources */,
 				D9D7E7DF2441CBF80030643A /* ContentView.swift in Sources */,
 				D931859D24438E5C0050F059 /* GridStackView.swift in Sources */,
+				D93185A5244393DB0050F059 /* TappableButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
