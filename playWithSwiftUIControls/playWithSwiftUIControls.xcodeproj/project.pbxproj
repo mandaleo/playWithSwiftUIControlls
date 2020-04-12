@@ -23,6 +23,9 @@
 		D93185A2244392D00050F059 /* ToggleSwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93185A1244392D00050F059 /* ToggleSwitchView.swift */; };
 		D93185A5244393DB0050F059 /* TappableButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93185A4244393DB0050F059 /* TappableButtonView.swift */; };
 		D93185A7244395420050F059 /* DisableOverlaycolorForImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93185A6244395420050F059 /* DisableOverlaycolorForImagesView.swift */; };
+		D93185AA244396F70050F059 /* ReadFromTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93185A9244396F60050F059 /* ReadFromTextFieldView.swift */; };
+		D93185AD2443985F0050F059 /* TextFieldBorderedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93185AC2443985F0050F059 /* TextFieldBorderedView.swift */; };
+		D93185AF244398A60050F059 /* SecureTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93185AE244398A60050F059 /* SecureTextFieldView.swift */; };
 		D9D7E7DB2441CBF80030643A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7DA2441CBF80030643A /* AppDelegate.swift */; };
 		D9D7E7DD2441CBF80030643A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7DC2441CBF80030643A /* SceneDelegate.swift */; };
 		D9D7E7DF2441CBF80030643A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7DE2441CBF80030643A /* ContentView.swift */; };
@@ -58,6 +61,9 @@
 		D93185A1244392D00050F059 /* ToggleSwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleSwitchView.swift; sourceTree = "<group>"; };
 		D93185A4244393DB0050F059 /* TappableButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappableButtonView.swift; sourceTree = "<group>"; };
 		D93185A6244395420050F059 /* DisableOverlaycolorForImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisableOverlaycolorForImagesView.swift; sourceTree = "<group>"; };
+		D93185A9244396F60050F059 /* ReadFromTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadFromTextFieldView.swift; sourceTree = "<group>"; };
+		D93185AC2443985F0050F059 /* TextFieldBorderedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldBorderedView.swift; sourceTree = "<group>"; };
+		D93185AE244398A60050F059 /* SecureTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureTextFieldView.swift; sourceTree = "<group>"; };
 		D9D7E7D72441CBF80030643A /* playWithSwiftUIControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playWithSwiftUIControls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D7E7DA2441CBF80030643A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9D7E7DC2441CBF80030643A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -159,6 +165,7 @@
 				D93185912442382A0050F059 /* ScrollView */,
 				D931859624423A5A0050F059 /* Effects */,
 				D931859B24438E3D0050F059 /* GridView */,
+				D93185AB2443983E0050F059 /* TextFields */,
 			);
 			path = Layouts;
 			sourceTree = "<group>";
@@ -168,6 +175,7 @@
 			children = (
 				D93185A0244392A80050F059 /* Toggle Switch */,
 				D93185A3244393CA0050F059 /* Tappable Button */,
+				D93185A8244396D40050F059 /* Read text from TextField */,
 			);
 			path = Events;
 			sourceTree = "<group>";
@@ -186,6 +194,23 @@
 				D93185A4244393DB0050F059 /* TappableButtonView.swift */,
 			);
 			path = "Tappable Button";
+			sourceTree = "<group>";
+		};
+		D93185A8244396D40050F059 /* Read text from TextField */ = {
+			isa = PBXGroup;
+			children = (
+				D93185A9244396F60050F059 /* ReadFromTextFieldView.swift */,
+			);
+			path = "Read text from TextField";
+			sourceTree = "<group>";
+		};
+		D93185AB2443983E0050F059 /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				D93185AC2443985F0050F059 /* TextFieldBorderedView.swift */,
+				D93185AE244398A60050F059 /* SecureTextFieldView.swift */,
+			);
+			path = TextFields;
 			sourceTree = "<group>";
 		};
 		D9D7E7CE2441CBF80030643A = {
@@ -360,6 +385,7 @@
 				D9D7E7F52441D54E0030643A /* DrawImagesView.swift in Sources */,
 				D9318586244226120050F059 /* ReturDifferentsTypesView.swift in Sources */,
 				D9D7E80524421B940030643A /* AlignmentStacksView.swift in Sources */,
+				D93185AA244396F70050F059 /* ReadFromTextFieldView.swift in Sources */,
 				D9D7E7DB2441CBF80030643A /* AppDelegate.swift in Sources */,
 				D931858C24422CC30050F059 /* CustomFrameView.swift in Sources */,
 				D931859A244246900050F059 /* DragGestureView.swift in Sources */,
@@ -380,7 +406,9 @@
 				D9318583244223770050F059 /* ZStacksView.swift in Sources */,
 				D9D7E7DF2441CBF80030643A /* ContentView.swift in Sources */,
 				D931859D24438E5C0050F059 /* GridStackView.swift in Sources */,
+				D93185AD2443985F0050F059 /* TextFieldBorderedView.swift in Sources */,
 				D93185A5244393DB0050F059 /* TappableButtonView.swift in Sources */,
+				D93185AF244398A60050F059 /* SecureTextFieldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
