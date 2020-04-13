@@ -32,6 +32,7 @@
 		D93185BC2444C1E70050F059 /* ReadFromSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93185BB2444C1E70050F059 /* ReadFromSegmentControl.swift */; };
 		D93185BF2444C2F90050F059 /* ReadFromStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93185BE2444C2F90050F059 /* ReadFromStepper.swift */; };
 		D93185C22444C3FA0050F059 /* TapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93185C12444C3FA0050F059 /* TapGestureView.swift */; };
+		D93185C42444C5A00050F059 /* ModifyTappableAreaOfGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93185C32444C5A00050F059 /* ModifyTappableAreaOfGestureView.swift */; };
 		D9D7E7DB2441CBF80030643A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7DA2441CBF80030643A /* AppDelegate.swift */; };
 		D9D7E7DD2441CBF80030643A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7DC2441CBF80030643A /* SceneDelegate.swift */; };
 		D9D7E7DF2441CBF80030643A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7DE2441CBF80030643A /* ContentView.swift */; };
@@ -76,6 +77,7 @@
 		D93185BB2444C1E70050F059 /* ReadFromSegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadFromSegmentControl.swift; sourceTree = "<group>"; };
 		D93185BE2444C2F90050F059 /* ReadFromStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadFromStepper.swift; sourceTree = "<group>"; };
 		D93185C12444C3FA0050F059 /* TapGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureView.swift; sourceTree = "<group>"; };
+		D93185C32444C5A00050F059 /* ModifyTappableAreaOfGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyTappableAreaOfGestureView.swift; sourceTree = "<group>"; };
 		D9D7E7D72441CBF80030643A /* playWithSwiftUIControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playWithSwiftUIControls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D7E7DA2441CBF80030643A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9D7E7DC2441CBF80030643A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -283,6 +285,7 @@
 			isa = PBXGroup;
 			children = (
 				D93185C12444C3FA0050F059 /* TapGestureView.swift */,
+				D93185C32444C5A00050F059 /* ModifyTappableAreaOfGestureView.swift */,
 			);
 			path = Gestures;
 			sourceTree = "<group>";
@@ -460,6 +463,7 @@
 				D93185B62444BF030050F059 /* ReadFromPicker.swift in Sources */,
 				D9D7E7F52441D54E0030643A /* DrawImagesView.swift in Sources */,
 				D9318586244226120050F059 /* ReturDifferentsTypesView.swift in Sources */,
+				D93185C42444C5A00050F059 /* ModifyTappableAreaOfGestureView.swift in Sources */,
 				D9D7E80524421B940030643A /* AlignmentStacksView.swift in Sources */,
 				D93185AA244396F70050F059 /* ReadTextFieldView.swift in Sources */,
 				D9D7E7DB2441CBF80030643A /* AppDelegate.swift in Sources */,
