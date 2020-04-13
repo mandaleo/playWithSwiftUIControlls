@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct ReadFromTextFieldView: View {
+struct ReadTextFieldView: View {
   @State private var name: String = "Tim"
   
   var body: some View {
@@ -19,8 +19,8 @@ struct ReadFromTextFieldView: View {
   }
 }
 
-struct ReadFromTextFieldView_Previews: PreviewProvider {
+struct ReadTextFieldView_Previews: PreviewProvider {
   static var previews: some View {
-    ReadFromTextFieldView()
+    ReadTextFieldView()
   }
 }
