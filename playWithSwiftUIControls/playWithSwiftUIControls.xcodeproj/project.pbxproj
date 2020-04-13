@@ -27,6 +27,7 @@
 		D93185AD2443985F0050F059 /* TextFieldBorderedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93185AC2443985F0050F059 /* TextFieldBorderedView.swift */; };
 		D93185AF244398A60050F059 /* SecureTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93185AE244398A60050F059 /* SecureTextFieldView.swift */; };
 		D93185B32444BD850050F059 /* ReadSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93185B22444BD850050F059 /* ReadSliderView.swift */; };
+		D93185B62444BF030050F059 /* ReadFromPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93185B52444BF030050F059 /* ReadFromPicker.swift */; };
 		D9D7E7DB2441CBF80030643A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7DA2441CBF80030643A /* AppDelegate.swift */; };
 		D9D7E7DD2441CBF80030643A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7DC2441CBF80030643A /* SceneDelegate.swift */; };
 		D9D7E7DF2441CBF80030643A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7DE2441CBF80030643A /* ContentView.swift */; };
@@ -66,6 +67,7 @@
 		D93185AC2443985F0050F059 /* TextFieldBorderedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldBorderedView.swift; sourceTree = "<group>"; };
 		D93185AE244398A60050F059 /* SecureTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureTextFieldView.swift; sourceTree = "<group>"; };
 		D93185B22444BD850050F059 /* ReadSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadSliderView.swift; sourceTree = "<group>"; };
+		D93185B52444BF030050F059 /* ReadFromPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadFromPicker.swift; sourceTree = "<group>"; };
 		D9D7E7D72441CBF80030643A /* playWithSwiftUIControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playWithSwiftUIControls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D7E7DA2441CBF80030643A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9D7E7DC2441CBF80030643A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -220,6 +222,7 @@
 			children = (
 				D93185A8244396D40050F059 /* TextField */,
 				D93185B12444BD6D0050F059 /* Slider */,
+				D93185B42444BEF10050F059 /* Picker */,
 			);
 			path = Read;
 			sourceTree = "<group>";
@@ -230,6 +233,14 @@
 				D93185B22444BD850050F059 /* ReadSliderView.swift */,
 			);
 			path = Slider;
+			sourceTree = "<group>";
+		};
+		D93185B42444BEF10050F059 /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				D93185B52444BF030050F059 /* ReadFromPicker.swift */,
+			);
+			path = Picker;
 			sourceTree = "<group>";
 		};
 		D9D7E7CE2441CBF80030643A = {
@@ -401,6 +412,7 @@
 				D931858124421E7D0050F059 /* SpacersView.swift in Sources */,
 				D93185A2244392D00050F059 /* ToggleSwitchView.swift in Sources */,
 				D9D7E80824421CED0030643A /* PaddingsView.swift in Sources */,
+				D93185B62444BF030050F059 /* ReadFromPicker.swift in Sources */,
 				D9D7E7F52441D54E0030643A /* DrawImagesView.swift in Sources */,
 				D9318586244226120050F059 /* ReturDifferentsTypesView.swift in Sources */,
 				D9D7E80524421B940030643A /* AlignmentStacksView.swift in Sources */,
