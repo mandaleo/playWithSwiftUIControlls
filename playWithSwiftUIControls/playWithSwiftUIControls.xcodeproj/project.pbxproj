@@ -35,6 +35,8 @@
 		D93185C42444C5A00050F059 /* ModifyTappableAreaOfGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93185C32444C5A00050F059 /* ModifyTappableAreaOfGestureView.swift */; };
 		D93185C62444C6930050F059 /* AddingGesturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93185C52444C6930050F059 /* AddingGesturesView.swift */; };
 		D93185C92444C8B70050F059 /* LifeCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93185C82444C8B70050F059 /* LifeCycleView.swift */; };
+		D93185CC2444CA0A0050F059 /* HideLabelsInPickersViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93185CB2444CA0A0050F059 /* HideLabelsInPickersViews.swift */; };
+		D93185CE2444CA7B0050F059 /* DisableTapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93185CD2444CA7B0050F059 /* DisableTapsView.swift */; };
 		D9D7E7DB2441CBF80030643A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7DA2441CBF80030643A /* AppDelegate.swift */; };
 		D9D7E7DD2441CBF80030643A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7DC2441CBF80030643A /* SceneDelegate.swift */; };
 		D9D7E7DF2441CBF80030643A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7DE2441CBF80030643A /* ContentView.swift */; };
@@ -82,6 +84,8 @@
 		D93185C32444C5A00050F059 /* ModifyTappableAreaOfGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyTappableAreaOfGestureView.swift; sourceTree = "<group>"; };
 		D93185C52444C6930050F059 /* AddingGesturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingGesturesView.swift; sourceTree = "<group>"; };
 		D93185C82444C8B70050F059 /* LifeCycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleView.swift; sourceTree = "<group>"; };
+		D93185CB2444CA0A0050F059 /* HideLabelsInPickersViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideLabelsInPickersViews.swift; sourceTree = "<group>"; };
+		D93185CD2444CA7B0050F059 /* DisableTapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisableTapsView.swift; sourceTree = "<group>"; };
 		D9D7E7D72441CBF80030643A /* playWithSwiftUIControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playWithSwiftUIControls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D7E7DA2441CBF80030643A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9D7E7DC2441CBF80030643A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -138,6 +142,7 @@
 				D931858B24422CC30050F059 /* CustomFrameView.swift */,
 				D931858D24422DFD0050F059 /* GeometryReaderView.swift */,
 				D931858F2442311F0050F059 /* IgnoreSafeAreaView.swift */,
+				D93185CB2444CA0A0050F059 /* HideLabelsInPickersViews.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -292,6 +297,7 @@
 				D93185C12444C3FA0050F059 /* TapGestureView.swift */,
 				D93185C32444C5A00050F059 /* ModifyTappableAreaOfGestureView.swift */,
 				D93185C52444C6930050F059 /* AddingGesturesView.swift */,
+				D93185CD2444CA7B0050F059 /* DisableTapsView.swift */,
 			);
 			path = Gestures;
 			sourceTree = "<group>";
@@ -471,6 +477,7 @@
 				D93185C22444C3FA0050F059 /* TapGestureView.swift in Sources */,
 				D9D7E7FF244217520030643A /* SolidShapesView.swift in Sources */,
 				D9D7E7FC2441DB1F0030643A /* RenderGradientView.swift in Sources */,
+				D93185CE2444CA7B0050F059 /* DisableTapsView.swift in Sources */,
 				D931858124421E7D0050F059 /* SpacersView.swift in Sources */,
 				D93185A2244392D00050F059 /* ToggleSwitchView.swift in Sources */,
 				D9D7E80824421CED0030643A /* PaddingsView.swift in Sources */,
@@ -482,6 +489,7 @@
 				D93185AA244396F70050F059 /* ReadTextFieldView.swift in Sources */,
 				D9D7E7DB2441CBF80030643A /* AppDelegate.swift in Sources */,
 				D93185BF2444C2F90050F059 /* ReadFromStepper.swift in Sources */,
+				D93185CC2444CA0A0050F059 /* HideLabelsInPickersViews.swift in Sources */,
 				D931858C24422CC30050F059 /* CustomFrameView.swift in Sources */,
 				D931859A244246900050F059 /* DragGestureView.swift in Sources */,
 				D931858A24422B370050F059 /* DifferentsLayoutUsingSizeClasses.swift in Sources */,

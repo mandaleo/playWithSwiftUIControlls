@@ -9,13 +9,25 @@
 import SwiftUI
 
 struct DisableTapsView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+  var body: some View {
+    ZStack {
+      Button("Tap Me") {
+        print("Button was tapped")
+      }
+      .frame(width: 100, height: 100)
+      .background(Color.white)
+      
+      Rectangle()
+        .fill(Color.red.opacity(0.2))
+        .frame(width: 300, height: 300)
+        .clipShape(Circle())
+        .allowsHitTesting(false)
     }
+  }
 }
 
 struct DisableTapsView_Previews: PreviewProvider {
-    static var previews: some View {
-        DisableTapsView()
-    }
+  static var previews: some View {
+    DisableTapsView()
+  }
 }
