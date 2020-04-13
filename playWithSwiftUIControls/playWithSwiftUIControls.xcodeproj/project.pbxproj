@@ -31,6 +31,7 @@
 		D93185B92444C0230050F059 /* ReadFromDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93185B82444C0230050F059 /* ReadFromDatePicker.swift */; };
 		D93185BC2444C1E70050F059 /* ReadFromSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93185BB2444C1E70050F059 /* ReadFromSegmentControl.swift */; };
 		D93185BF2444C2F90050F059 /* ReadFromStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93185BE2444C2F90050F059 /* ReadFromStepper.swift */; };
+		D93185C22444C3FA0050F059 /* TapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93185C12444C3FA0050F059 /* TapGestureView.swift */; };
 		D9D7E7DB2441CBF80030643A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7DA2441CBF80030643A /* AppDelegate.swift */; };
 		D9D7E7DD2441CBF80030643A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7DC2441CBF80030643A /* SceneDelegate.swift */; };
 		D9D7E7DF2441CBF80030643A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7DE2441CBF80030643A /* ContentView.swift */; };
@@ -74,6 +75,7 @@
 		D93185B82444C0230050F059 /* ReadFromDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadFromDatePicker.swift; sourceTree = "<group>"; };
 		D93185BB2444C1E70050F059 /* ReadFromSegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadFromSegmentControl.swift; sourceTree = "<group>"; };
 		D93185BE2444C2F90050F059 /* ReadFromStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadFromStepper.swift; sourceTree = "<group>"; };
+		D93185C12444C3FA0050F059 /* TapGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureView.swift; sourceTree = "<group>"; };
 		D9D7E7D72441CBF80030643A /* playWithSwiftUIControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playWithSwiftUIControls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D7E7DA2441CBF80030643A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9D7E7DC2441CBF80030643A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -184,8 +186,15 @@
 			isa = PBXGroup;
 			children = (
 				D93185B02444BD4B0050F059 /* Read */,
+				D93185A8244396D40050F059 /* TextField */,
+				D93185B12444BD6D0050F059 /* Slider */,
+				D93185B42444BEF10050F059 /* Picker */,
+				D93185B72444C00F0050F059 /* DatePicker */,
+				D93185BA2444C1D00050F059 /* Segment Control */,
+				D93185BD2444C2E40050F059 /* Stepper */,
 				D93185A0244392A80050F059 /* Toggle Switch */,
 				D93185A3244393CA0050F059 /* Tappable Button */,
+				D93185C02444C3E80050F059 /* Gestures */,
 			);
 			path = Events;
 			sourceTree = "<group>";
@@ -226,12 +235,6 @@
 		D93185B02444BD4B0050F059 /* Read */ = {
 			isa = PBXGroup;
 			children = (
-				D93185A8244396D40050F059 /* TextField */,
-				D93185B12444BD6D0050F059 /* Slider */,
-				D93185B42444BEF10050F059 /* Picker */,
-				D93185B72444C00F0050F059 /* DatePicker */,
-				D93185BA2444C1D00050F059 /* Segment Control */,
-				D93185BD2444C2E40050F059 /* Stepper */,
 			);
 			path = Read;
 			sourceTree = "<group>";
@@ -274,6 +277,14 @@
 				D93185BE2444C2F90050F059 /* ReadFromStepper.swift */,
 			);
 			path = Stepper;
+			sourceTree = "<group>";
+		};
+		D93185C02444C3E80050F059 /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				D93185C12444C3FA0050F059 /* TapGestureView.swift */,
+			);
+			path = Gestures;
 			sourceTree = "<group>";
 		};
 		D9D7E7CE2441CBF80030643A = {
@@ -440,6 +451,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D93185C22444C3FA0050F059 /* TapGestureView.swift in Sources */,
 				D9D7E7FF244217520030643A /* SolidShapesView.swift in Sources */,
 				D9D7E7FC2441DB1F0030643A /* RenderGradientView.swift in Sources */,
 				D931858124421E7D0050F059 /* SpacersView.swift in Sources */,
