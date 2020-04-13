@@ -34,6 +34,7 @@
 		D93185C22444C3FA0050F059 /* TapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93185C12444C3FA0050F059 /* TapGestureView.swift */; };
 		D93185C42444C5A00050F059 /* ModifyTappableAreaOfGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93185C32444C5A00050F059 /* ModifyTappableAreaOfGestureView.swift */; };
 		D93185C62444C6930050F059 /* AddingGesturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93185C52444C6930050F059 /* AddingGesturesView.swift */; };
+		D93185C92444C8B70050F059 /* LifeCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93185C82444C8B70050F059 /* LifeCycleView.swift */; };
 		D9D7E7DB2441CBF80030643A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7DA2441CBF80030643A /* AppDelegate.swift */; };
 		D9D7E7DD2441CBF80030643A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7DC2441CBF80030643A /* SceneDelegate.swift */; };
 		D9D7E7DF2441CBF80030643A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E7DE2441CBF80030643A /* ContentView.swift */; };
@@ -80,6 +81,7 @@
 		D93185C12444C3FA0050F059 /* TapGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureView.swift; sourceTree = "<group>"; };
 		D93185C32444C5A00050F059 /* ModifyTappableAreaOfGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyTappableAreaOfGestureView.swift; sourceTree = "<group>"; };
 		D93185C52444C6930050F059 /* AddingGesturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingGesturesView.swift; sourceTree = "<group>"; };
+		D93185C82444C8B70050F059 /* LifeCycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleView.swift; sourceTree = "<group>"; };
 		D9D7E7D72441CBF80030643A /* playWithSwiftUIControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playWithSwiftUIControls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D7E7DA2441CBF80030643A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9D7E7DC2441CBF80030643A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 				D93185A0244392A80050F059 /* Toggle Switch */,
 				D93185A3244393CA0050F059 /* Tappable Button */,
 				D93185C02444C3E80050F059 /* Gestures */,
+				D93185C72444C8840050F059 /* LifeCycle Events */,
 			);
 			path = Events;
 			sourceTree = "<group>";
@@ -291,6 +294,14 @@
 				D93185C52444C6930050F059 /* AddingGesturesView.swift */,
 			);
 			path = Gestures;
+			sourceTree = "<group>";
+		};
+		D93185C72444C8840050F059 /* LifeCycle Events */ = {
+			isa = PBXGroup;
+			children = (
+				D93185C82444C8B70050F059 /* LifeCycleView.swift */,
+			);
+			path = "LifeCycle Events";
 			sourceTree = "<group>";
 		};
 		D9D7E7CE2441CBF80030643A = {
@@ -488,6 +499,7 @@
 				D93185932442385B0050F059 /* VerticalScrollView.swift in Sources */,
 				D931859824423A760050F059 /* CoverFlowEffectView.swift in Sources */,
 				D9D7E7F22441D08D0030643A /* StyleTextsViews.swift in Sources */,
+				D93185C92444C8B70050F059 /* LifeCycleView.swift in Sources */,
 				D93185BC2444C1E70050F059 /* ReadFromSegmentControl.swift in Sources */,
 				D9D7E7F92441D9D90030643A /* TileImagesView.swift in Sources */,
 				D9318583244223770050F059 /* ZStacksView.swift in Sources */,
