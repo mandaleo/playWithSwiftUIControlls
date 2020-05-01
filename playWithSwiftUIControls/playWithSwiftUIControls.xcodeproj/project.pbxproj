@@ -60,6 +60,7 @@
 		D9950FEB245C7E0D00ECB35E /* ShowAlertview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9950FEA245C7E0D00ECB35E /* ShowAlertview.swift */; };
 		D9950FEE245C806700ECB35E /* MultipleAlertsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9950FED245C806700ECB35E /* MultipleAlertsView.swift */; };
 		D9950FF1245C81C000ECB35E /* AddActionInAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9950FF0245C81C000ECB35E /* AddActionInAlertView.swift */; };
+		D9950FF5245C82A200ECB35E /* ShowActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9950FF4245C82A200ECB35E /* ShowActionSheetView.swift */; };
 		D9AACE612454C14000A86585 /* RestaurantDynamicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AACE602454C14000A86585 /* RestaurantDynamicView.swift */; };
 		D9AACE632454C16100A86585 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AACE622454C16100A86585 /* Restaurant.swift */; };
 		D9AACE652454C21500A86585 /* ListDynamicsItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AACE642454C21500A86585 /* ListDynamicsItemsView.swift */; };
@@ -135,6 +136,7 @@
 		D9950FEA245C7E0D00ECB35E /* ShowAlertview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAlertview.swift; sourceTree = "<group>"; };
 		D9950FED245C806700ECB35E /* MultipleAlertsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleAlertsView.swift; sourceTree = "<group>"; };
 		D9950FF0245C81C000ECB35E /* AddActionInAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddActionInAlertView.swift; sourceTree = "<group>"; };
+		D9950FF4245C82A200ECB35E /* ShowActionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowActionSheetView.swift; sourceTree = "<group>"; };
 		D9AACE602454C14000A86585 /* RestaurantDynamicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDynamicView.swift; sourceTree = "<group>"; };
 		D9AACE622454C16100A86585 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		D9AACE642454C21500A86585 /* ListDynamicsItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDynamicsItemsView.swift; sourceTree = "<group>"; };
@@ -564,6 +566,7 @@
 			isa = PBXGroup;
 			children = (
 				D9950FE8245C7DFD00ECB35E /* Alert */,
+				D9950FF2245C828900ECB35E /* Action Sheet */,
 			);
 			path = "Alerts and Action Sheets";
 			sourceTree = "<group>";
@@ -600,6 +603,22 @@
 				D9950FF0245C81C000ECB35E /* AddActionInAlertView.swift */,
 			);
 			path = "Add Action";
+			sourceTree = "<group>";
+		};
+		D9950FF2245C828900ECB35E /* Action Sheet */ = {
+			isa = PBXGroup;
+			children = (
+				D9950FF3245C829300ECB35E /* Show */,
+			);
+			path = "Action Sheet";
+			sourceTree = "<group>";
+		};
+		D9950FF3245C829300ECB35E /* Show */ = {
+			isa = PBXGroup;
+			children = (
+				D9950FF4245C82A200ECB35E /* ShowActionSheetView.swift */,
+			);
+			path = Show;
 			sourceTree = "<group>";
 		};
 		D9AACE5F2454C12200A86585 /* Dynamic items */ = {
@@ -813,6 +832,7 @@
 				D93186032454BE990050F059 /* ListStaticItemsView.swift in Sources */,
 				D9950FF1245C81C000ECB35E /* AddActionInAlertView.swift in Sources */,
 				D9D7E7F02441CFCE0030643A /* TruncateTextsViews.swift in Sources */,
+				D9950FF5245C82A200ECB35E /* ShowActionSheetView.swift in Sources */,
 				D9318595244238C00050F059 /* HorizontalScrollView.swift in Sources */,
 				D9D7E7F72441D8D40030643A /* ScaleImagesView.swift in Sources */,
 				D9D7E7DD2441CBF80030643A /* SceneDelegate.swift in Sources */,
