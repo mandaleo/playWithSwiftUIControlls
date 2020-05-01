@@ -49,6 +49,7 @@
 		D9950FC3245C344400ECB35E /* ImplicitStackingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9950FC2245C344400ECB35E /* ImplicitStackingListView.swift */; };
 		D9950FC6245C6FAC00ECB35E /* BasicFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9950FC5245C6FAC00ECB35E /* BasicFormView.swift */; };
 		D9950FCB245C711E00ECB35E /* FormWithSectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9950FCA245C711E00ECB35E /* FormWithSectionsView.swift */; };
+		D9950FCE245C72DA00ECB35E /* PickersInFormsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9950FCD245C72DA00ECB35E /* PickersInFormsView.swift */; };
 		D9AACE612454C14000A86585 /* RestaurantDynamicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AACE602454C14000A86585 /* RestaurantDynamicView.swift */; };
 		D9AACE632454C16100A86585 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AACE622454C16100A86585 /* Restaurant.swift */; };
 		D9AACE652454C21500A86585 /* ListDynamicsItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AACE642454C21500A86585 /* ListDynamicsItemsView.swift */; };
@@ -113,6 +114,7 @@
 		D9950FC2245C344400ECB35E /* ImplicitStackingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitStackingListView.swift; sourceTree = "<group>"; };
 		D9950FC5245C6FAC00ECB35E /* BasicFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicFormView.swift; sourceTree = "<group>"; };
 		D9950FCA245C711E00ECB35E /* FormWithSectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormWithSectionsView.swift; sourceTree = "<group>"; };
+		D9950FCD245C72DA00ECB35E /* PickersInFormsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickersInFormsView.swift; sourceTree = "<group>"; };
 		D9AACE602454C14000A86585 /* RestaurantDynamicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDynamicView.swift; sourceTree = "<group>"; };
 		D9AACE622454C16100A86585 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		D9AACE642454C21500A86585 /* ListDynamicsItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDynamicsItemsView.swift; sourceTree = "<group>"; };
@@ -421,6 +423,7 @@
 			children = (
 				D9950FC7245C70EE00ECB35E /* Basic Form */,
 				D9950FC9245C710600ECB35E /* Form With Sections */,
+				D9950FCC245C72C600ECB35E /* Pickers */,
 			);
 			path = Forms;
 			sourceTree = "<group>";
@@ -439,6 +442,14 @@
 				D9950FCA245C711E00ECB35E /* FormWithSectionsView.swift */,
 			);
 			path = "Form With Sections";
+			sourceTree = "<group>";
+		};
+		D9950FCC245C72C600ECB35E /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				D9950FCD245C72DA00ECB35E /* PickersInFormsView.swift */,
+			);
+			path = Pickers;
 			sourceTree = "<group>";
 		};
 		D9AACE5F2454C12200A86585 /* Dynamic items */ = {
@@ -634,6 +645,7 @@
 				D9950FB0245C2C7300ECB35E /* RemoveItemsListView.swift in Sources */,
 				D93185AA244396F70050F059 /* ReadTextFieldView.swift in Sources */,
 				D9D7E7DB2441CBF80030643A /* AppDelegate.swift in Sources */,
+				D9950FCE245C72DA00ECB35E /* PickersInFormsView.swift in Sources */,
 				D93185BF2444C2F90050F059 /* ReadFromStepper.swift in Sources */,
 				D93185CC2444CA0A0050F059 /* HideLabelsInPickersViews.swift in Sources */,
 				D931858C24422CC30050F059 /* CustomFrameView.swift in Sources */,
