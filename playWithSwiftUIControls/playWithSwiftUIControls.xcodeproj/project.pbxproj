@@ -41,6 +41,10 @@
 		D93186062454BECA0050F059 /* RestaurantStaticRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93186052454BECA0050F059 /* RestaurantStaticRow.swift */; };
 		D9950FB0245C2C7300ECB35E /* RemoveItemsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9950FAF245C2C7300ECB35E /* RemoveItemsListView.swift */; };
 		D9950FB3245C2DD700ECB35E /* MoveItemsListview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9950FB2245C2DD700ECB35E /* MoveItemsListview.swift */; };
+		D9950FB6245C30ED00ECB35E /* AddSectionsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9950FB5245C30ED00ECB35E /* AddSectionsListView.swift */; };
+		D9950FB8245C315300ECB35E /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9950FB7245C315300ECB35E /* TaskRow.swift */; };
+		D9950FBB245C31EB00ECB35E /* GroupedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9950FBA245C31EB00ECB35E /* GroupedListView.swift */; };
+		D9950FBD245C320000ECB35E /* GroupedExampleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9950FBC245C320000ECB35E /* GroupedExampleRow.swift */; };
 		D9AACE612454C14000A86585 /* RestaurantDynamicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AACE602454C14000A86585 /* RestaurantDynamicView.swift */; };
 		D9AACE632454C16100A86585 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AACE622454C16100A86585 /* Restaurant.swift */; };
 		D9AACE652454C21500A86585 /* ListDynamicsItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AACE642454C21500A86585 /* ListDynamicsItemsView.swift */; };
@@ -97,6 +101,10 @@
 		D93186052454BECA0050F059 /* RestaurantStaticRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantStaticRow.swift; sourceTree = "<group>"; };
 		D9950FAF245C2C7300ECB35E /* RemoveItemsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveItemsListView.swift; sourceTree = "<group>"; };
 		D9950FB2245C2DD700ECB35E /* MoveItemsListview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveItemsListview.swift; sourceTree = "<group>"; };
+		D9950FB5245C30ED00ECB35E /* AddSectionsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSectionsListView.swift; sourceTree = "<group>"; };
+		D9950FB7245C315300ECB35E /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+		D9950FBA245C31EB00ECB35E /* GroupedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedListView.swift; sourceTree = "<group>"; };
+		D9950FBC245C320000ECB35E /* GroupedExampleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedExampleRow.swift; sourceTree = "<group>"; };
 		D9AACE602454C14000A86585 /* RestaurantDynamicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDynamicView.swift; sourceTree = "<group>"; };
 		D9AACE622454C16100A86585 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		D9AACE642454C21500A86585 /* ListDynamicsItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDynamicsItemsView.swift; sourceTree = "<group>"; };
@@ -332,6 +340,8 @@
 				D9AACE5F2454C12200A86585 /* Dynamic items */,
 				D9950FAE245C2C5600ECB35E /* Remove Items */,
 				D9950FB1245C2DBA00ECB35E /* Move Items */,
+				D9950FB4245C30D900ECB35E /* Add sections */,
+				D9950FB9245C31D000ECB35E /* Grouped List */,
 			);
 			path = Lists;
 			sourceTree = "<group>";
@@ -359,6 +369,24 @@
 				D9950FB2245C2DD700ECB35E /* MoveItemsListview.swift */,
 			);
 			path = "Move Items";
+			sourceTree = "<group>";
+		};
+		D9950FB4245C30D900ECB35E /* Add sections */ = {
+			isa = PBXGroup;
+			children = (
+				D9950FB5245C30ED00ECB35E /* AddSectionsListView.swift */,
+				D9950FB7245C315300ECB35E /* TaskRow.swift */,
+			);
+			path = "Add sections";
+			sourceTree = "<group>";
+		};
+		D9950FB9245C31D000ECB35E /* Grouped List */ = {
+			isa = PBXGroup;
+			children = (
+				D9950FBC245C320000ECB35E /* GroupedExampleRow.swift */,
+				D9950FBA245C31EB00ECB35E /* GroupedListView.swift */,
+			);
+			path = "Grouped List";
 			sourceTree = "<group>";
 		};
 		D9AACE5F2454C12200A86585 /* Dynamic items */ = {
@@ -557,6 +585,7 @@
 				D93185CC2444CA0A0050F059 /* HideLabelsInPickersViews.swift in Sources */,
 				D931858C24422CC30050F059 /* CustomFrameView.swift in Sources */,
 				D931859A244246900050F059 /* DragGestureView.swift in Sources */,
+				D9950FBB245C31EB00ECB35E /* GroupedListView.swift in Sources */,
 				D931858A24422B370050F059 /* DifferentsLayoutUsingSizeClasses.swift in Sources */,
 				D93185B92444C0230050F059 /* ReadFromDatePicker.swift in Sources */,
 				D93185A7244395420050F059 /* DisableOverlaycolorForImagesView.swift in Sources */,
@@ -566,6 +595,7 @@
 				D9D7E7F72441D8D40030643A /* ScaleImagesView.swift in Sources */,
 				D9D7E7DD2441CBF80030643A /* SceneDelegate.swift in Sources */,
 				D93185C62444C6930050F059 /* AddingGesturesView.swift in Sources */,
+				D9950FB8245C315300ECB35E /* TaskRow.swift in Sources */,
 				D931858E24422DFD0050F059 /* GeometryReaderView.swift in Sources */,
 				D93185902442311F0050F059 /* IgnoreSafeAreaView.swift in Sources */,
 				D9318588244227860050F059 /* ForEachOfCreateView.swift in Sources */,
@@ -575,6 +605,7 @@
 				D931859824423A760050F059 /* CoverFlowEffectView.swift in Sources */,
 				D9D7E7F22441D08D0030643A /* StyleTextsViews.swift in Sources */,
 				D93185C92444C8B70050F059 /* LifeCycleView.swift in Sources */,
+				D9950FB6245C30ED00ECB35E /* AddSectionsListView.swift in Sources */,
 				D93185BC2444C1E70050F059 /* ReadFromSegmentControl.swift in Sources */,
 				D9AACE652454C21500A86585 /* ListDynamicsItemsView.swift in Sources */,
 				D9D7E7F92441D9D90030643A /* TileImagesView.swift in Sources */,
@@ -584,6 +615,7 @@
 				D93185AD2443985F0050F059 /* TextFieldBorderedView.swift in Sources */,
 				D93185A5244393DB0050F059 /* TappableButtonView.swift in Sources */,
 				D93185AF244398A60050F059 /* SecureTextFieldView.swift in Sources */,
+				D9950FBD245C320000ECB35E /* GroupedExampleRow.swift in Sources */,
 				D93185B32444BD850050F059 /* ReadSliderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
