@@ -36,7 +36,8 @@ struct FormWithSectionsView: View {
           }
         }
       }
-    }.navigationBarTitle("Settings")
+      .navigationBarTitle("Settings")
+    }
   }
 }
 

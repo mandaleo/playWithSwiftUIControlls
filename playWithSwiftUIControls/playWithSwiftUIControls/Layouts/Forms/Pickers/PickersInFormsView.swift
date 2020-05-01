@@ -24,7 +24,8 @@ struct PickersInFormsView: View {
        // .pickerStyle(WheelPickerStyle()) // With this disable the special behaviours in form
         }
       }
-    }.navigationBarTitle("Select your cheese")
+      .navigationBarTitle("Select your cheese")
+    }
   }
 }
 

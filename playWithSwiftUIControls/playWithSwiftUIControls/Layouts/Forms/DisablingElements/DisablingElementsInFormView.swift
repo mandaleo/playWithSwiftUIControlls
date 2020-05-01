@@ -28,7 +28,8 @@ struct DisablingElementsInFormView: View {
           }.disabled(!agreedToTerms)
         }
       }
-    }.navigationBarTitle("Welcome")
+      .navigationBarTitle("Welcome")
+    }
   }
 }
 

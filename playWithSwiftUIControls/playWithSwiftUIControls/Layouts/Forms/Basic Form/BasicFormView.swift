@@ -32,7 +32,8 @@ struct BasicFormView: View {
           Text("Save changes")
         }
       }
-    }.navigationBarTitle("Settings")
+      .navigationBarTitle("Settings")
+    }
   }
 }
 
