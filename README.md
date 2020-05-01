@@ -8,3 +8,6 @@ If this is what you want then the default behavior is fine. However, if you want
 
 implicit stacking
 What happens if you create a dynamic list and put more than one thing in each row? SwiftUI’s solution is simple, flexible, and gives us great behavior by default: it creates an implicit HStack to hold your items, so they automatically get laid out horizontally.
+
+Groups
+If you need several views to act as one – for example, to transition together – then you should use SwiftUI’s Group view. This is particularly important because, for underlying technical reasons, you can only add up to 10 views to a parent view at a time.
