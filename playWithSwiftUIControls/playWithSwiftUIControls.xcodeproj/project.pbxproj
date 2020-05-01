@@ -39,6 +39,7 @@
 		D93185CE2444CA7B0050F059 /* DisableTapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93185CD2444CA7B0050F059 /* DisableTapsView.swift */; };
 		D93186032454BE990050F059 /* ListStaticItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93186022454BE990050F059 /* ListStaticItemsView.swift */; };
 		D93186062454BECA0050F059 /* RestaurantStaticRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93186052454BECA0050F059 /* RestaurantStaticRow.swift */; };
+		D9950FB0245C2C7300ECB35E /* RemoveItemsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9950FAF245C2C7300ECB35E /* RemoveItemsListView.swift */; };
 		D9AACE612454C14000A86585 /* RestaurantDynamicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AACE602454C14000A86585 /* RestaurantDynamicView.swift */; };
 		D9AACE632454C16100A86585 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AACE622454C16100A86585 /* Restaurant.swift */; };
 		D9AACE652454C21500A86585 /* ListDynamicsItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AACE642454C21500A86585 /* ListDynamicsItemsView.swift */; };
@@ -93,6 +94,7 @@
 		D93185CD2444CA7B0050F059 /* DisableTapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisableTapsView.swift; sourceTree = "<group>"; };
 		D93186022454BE990050F059 /* ListStaticItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListStaticItemsView.swift; sourceTree = "<group>"; };
 		D93186052454BECA0050F059 /* RestaurantStaticRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantStaticRow.swift; sourceTree = "<group>"; };
+		D9950FAF245C2C7300ECB35E /* RemoveItemsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveItemsListView.swift; sourceTree = "<group>"; };
 		D9AACE602454C14000A86585 /* RestaurantDynamicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDynamicView.swift; sourceTree = "<group>"; };
 		D9AACE622454C16100A86585 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		D9AACE642454C21500A86585 /* ListDynamicsItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDynamicsItemsView.swift; sourceTree = "<group>"; };
@@ -326,6 +328,7 @@
 			children = (
 				D93186042454BEBA0050F059 /* Static Items */,
 				D9AACE5F2454C12200A86585 /* Dynamic items */,
+				D9950FAE245C2C5600ECB35E /* Remove Items */,
 			);
 			path = Lists;
 			sourceTree = "<group>";
@@ -337,6 +340,14 @@
 				D93186052454BECA0050F059 /* RestaurantStaticRow.swift */,
 			);
 			path = "Static Items";
+			sourceTree = "<group>";
+		};
+		D9950FAE245C2C5600ECB35E /* Remove Items */ = {
+			isa = PBXGroup;
+			children = (
+				D9950FAF245C2C7300ECB35E /* RemoveItemsListView.swift */,
+			);
+			path = "Remove Items";
 			sourceTree = "<group>";
 		};
 		D9AACE5F2454C12200A86585 /* Dynamic items */ = {
@@ -528,6 +539,7 @@
 				D9AACE612454C14000A86585 /* RestaurantDynamicView.swift in Sources */,
 				D93185C42444C5A00050F059 /* ModifyTappableAreaOfGestureView.swift in Sources */,
 				D9D7E80524421B940030643A /* AlignmentStacksView.swift in Sources */,
+				D9950FB0245C2C7300ECB35E /* RemoveItemsListView.swift in Sources */,
 				D93185AA244396F70050F059 /* ReadTextFieldView.swift in Sources */,
 				D9D7E7DB2441CBF80030643A /* AppDelegate.swift in Sources */,
 				D93185BF2444C2F90050F059 /* ReadFromStepper.swift in Sources */,
