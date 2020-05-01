@@ -53,6 +53,7 @@
 		D9950FD1245C746300ECB35E /* DisablingElementsInFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9950FD0245C746300ECB35E /* DisablingElementsInFormView.swift */; };
 		D9950FD4245C758700ECB35E /* HideRowsInFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9950FD3245C758700ECB35E /* HideRowsInFormView.swift */; };
 		D9950FD9245C77C500ECB35E /* EmbedViewInNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9950FD8245C77C500ECB35E /* EmbedViewInNavigationView.swift */; };
+		D9950FDC245C78F500ECB35E /* AddBarItemsInNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9950FDB245C78F500ECB35E /* AddBarItemsInNavigationView.swift */; };
 		D9AACE612454C14000A86585 /* RestaurantDynamicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AACE602454C14000A86585 /* RestaurantDynamicView.swift */; };
 		D9AACE632454C16100A86585 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AACE622454C16100A86585 /* Restaurant.swift */; };
 		D9AACE652454C21500A86585 /* ListDynamicsItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AACE642454C21500A86585 /* ListDynamicsItemsView.swift */; };
@@ -121,6 +122,7 @@
 		D9950FD0245C746300ECB35E /* DisablingElementsInFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisablingElementsInFormView.swift; sourceTree = "<group>"; };
 		D9950FD3245C758700ECB35E /* HideRowsInFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideRowsInFormView.swift; sourceTree = "<group>"; };
 		D9950FD8245C77C500ECB35E /* EmbedViewInNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbedViewInNavigationView.swift; sourceTree = "<group>"; };
+		D9950FDB245C78F500ECB35E /* AddBarItemsInNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBarItemsInNavigationView.swift; sourceTree = "<group>"; };
 		D9AACE602454C14000A86585 /* RestaurantDynamicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDynamicView.swift; sourceTree = "<group>"; };
 		D9AACE622454C16100A86585 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		D9AACE642454C21500A86585 /* ListDynamicsItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDynamicsItemsView.swift; sourceTree = "<group>"; };
@@ -489,6 +491,7 @@
 			isa = PBXGroup;
 			children = (
 				D9950FD7245C77B000ECB35E /* Embed View */,
+				D9950FDA245C78D900ECB35E /* Add Bar Items */,
 			);
 			path = "Navigation View";
 			sourceTree = "<group>";
@@ -499,6 +502,14 @@
 				D9950FD8245C77C500ECB35E /* EmbedViewInNavigationView.swift */,
 			);
 			path = "Embed View";
+			sourceTree = "<group>";
+		};
+		D9950FDA245C78D900ECB35E /* Add Bar Items */ = {
+			isa = PBXGroup;
+			children = (
+				D9950FDB245C78F500ECB35E /* AddBarItemsInNavigationView.swift */,
+			);
+			path = "Add Bar Items";
 			sourceTree = "<group>";
 		};
 		D9AACE5F2454C12200A86585 /* Dynamic items */ = {
@@ -690,6 +701,7 @@
 				D9318586244226120050F059 /* ReturDifferentsTypesView.swift in Sources */,
 				D9AACE612454C14000A86585 /* RestaurantDynamicView.swift in Sources */,
 				D93185C42444C5A00050F059 /* ModifyTappableAreaOfGestureView.swift in Sources */,
+				D9950FDC245C78F500ECB35E /* AddBarItemsInNavigationView.swift in Sources */,
 				D9D7E80524421B940030643A /* AlignmentStacksView.swift in Sources */,
 				D9950FB0245C2C7300ECB35E /* RemoveItemsListView.swift in Sources */,
 				D93185AA244396F70050F059 /* ReadTextFieldView.swift in Sources */,
