@@ -58,6 +58,7 @@
 		D9950FE3245C7B2C00ECB35E /* GroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9950FE2245C7B2C00ECB35E /* GroupView.swift */; };
 		D9950FE6245C7D0900ECB35E /* HideStatusBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9950FE5245C7D0900ECB35E /* HideStatusBarView.swift */; };
 		D9950FEB245C7E0D00ECB35E /* ShowAlertview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9950FEA245C7E0D00ECB35E /* ShowAlertview.swift */; };
+		D9950FEE245C806700ECB35E /* MultipleAlertsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9950FED245C806700ECB35E /* MultipleAlertsView.swift */; };
 		D9AACE612454C14000A86585 /* RestaurantDynamicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AACE602454C14000A86585 /* RestaurantDynamicView.swift */; };
 		D9AACE632454C16100A86585 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AACE622454C16100A86585 /* Restaurant.swift */; };
 		D9AACE652454C21500A86585 /* ListDynamicsItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AACE642454C21500A86585 /* ListDynamicsItemsView.swift */; };
@@ -131,6 +132,7 @@
 		D9950FE2245C7B2C00ECB35E /* GroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupView.swift; sourceTree = "<group>"; };
 		D9950FE5245C7D0900ECB35E /* HideStatusBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideStatusBarView.swift; sourceTree = "<group>"; };
 		D9950FEA245C7E0D00ECB35E /* ShowAlertview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAlertview.swift; sourceTree = "<group>"; };
+		D9950FED245C806700ECB35E /* MultipleAlertsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleAlertsView.swift; sourceTree = "<group>"; };
 		D9AACE602454C14000A86585 /* RestaurantDynamicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDynamicView.swift; sourceTree = "<group>"; };
 		D9AACE622454C16100A86585 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		D9AACE642454C21500A86585 /* ListDynamicsItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDynamicsItemsView.swift; sourceTree = "<group>"; };
@@ -568,6 +570,7 @@
 			isa = PBXGroup;
 			children = (
 				D9950FE9245C7E0400ECB35E /* Show */,
+				D9950FEC245C7F2C00ECB35E /* Multiple Alerts in View */,
 			);
 			path = Alert;
 			sourceTree = "<group>";
@@ -578,6 +581,14 @@
 				D9950FEA245C7E0D00ECB35E /* ShowAlertview.swift */,
 			);
 			path = Show;
+			sourceTree = "<group>";
+		};
+		D9950FEC245C7F2C00ECB35E /* Multiple Alerts in View */ = {
+			isa = PBXGroup;
+			children = (
+				D9950FED245C806700ECB35E /* MultipleAlertsView.swift */,
+			);
+			path = "Multiple Alerts in View";
 			sourceTree = "<group>";
 		};
 		D9AACE5F2454C12200A86585 /* Dynamic items */ = {
@@ -783,6 +794,7 @@
 				D931858C24422CC30050F059 /* CustomFrameView.swift in Sources */,
 				D931859A244246900050F059 /* DragGestureView.swift in Sources */,
 				D9950FD4245C758700ECB35E /* HideRowsInFormView.swift in Sources */,
+				D9950FEE245C806700ECB35E /* MultipleAlertsView.swift in Sources */,
 				D9950FBB245C31EB00ECB35E /* GroupedListView.swift in Sources */,
 				D931858A24422B370050F059 /* DifferentsLayoutUsingSizeClasses.swift in Sources */,
 				D93185B92444C0230050F059 /* ReadFromDatePicker.swift in Sources */,
