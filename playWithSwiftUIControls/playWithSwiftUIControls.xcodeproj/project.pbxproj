@@ -47,6 +47,7 @@
 		D9950FBD245C320000ECB35E /* GroupedExampleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9950FBC245C320000ECB35E /* GroupedExampleRow.swift */; };
 		D9950FC0245C331500ECB35E /* BackGroundColorOfRowsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9950FBF245C331500ECB35E /* BackGroundColorOfRowsView.swift */; };
 		D9950FC3245C344400ECB35E /* ImplicitStackingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9950FC2245C344400ECB35E /* ImplicitStackingListView.swift */; };
+		D9950FC6245C6FAC00ECB35E /* BasicFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9950FC5245C6FAC00ECB35E /* BasicFormView.swift */; };
 		D9AACE612454C14000A86585 /* RestaurantDynamicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AACE602454C14000A86585 /* RestaurantDynamicView.swift */; };
 		D9AACE632454C16100A86585 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AACE622454C16100A86585 /* Restaurant.swift */; };
 		D9AACE652454C21500A86585 /* ListDynamicsItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AACE642454C21500A86585 /* ListDynamicsItemsView.swift */; };
@@ -109,6 +110,7 @@
 		D9950FBC245C320000ECB35E /* GroupedExampleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedExampleRow.swift; sourceTree = "<group>"; };
 		D9950FBF245C331500ECB35E /* BackGroundColorOfRowsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackGroundColorOfRowsView.swift; sourceTree = "<group>"; };
 		D9950FC2245C344400ECB35E /* ImplicitStackingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitStackingListView.swift; sourceTree = "<group>"; };
+		D9950FC5245C6FAC00ECB35E /* BasicFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicFormView.swift; sourceTree = "<group>"; };
 		D9AACE602454C14000A86585 /* RestaurantDynamicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDynamicView.swift; sourceTree = "<group>"; };
 		D9AACE622454C16100A86585 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		D9AACE642454C21500A86585 /* ListDynamicsItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDynamicsItemsView.swift; sourceTree = "<group>"; };
@@ -216,6 +218,7 @@
 				D931859B24438E3D0050F059 /* GridView */,
 				D93185AB2443983E0050F059 /* TextFields */,
 				D93186012454BE3B0050F059 /* Lists */,
+				D9950FC4245C6F5800ECB35E /* Forms */,
 			);
 			path = Layouts;
 			sourceTree = "<group>";
@@ -411,6 +414,14 @@
 			path = "Implicit stacking";
 			sourceTree = "<group>";
 		};
+		D9950FC4245C6F5800ECB35E /* Forms */ = {
+			isa = PBXGroup;
+			children = (
+				D9950FC5245C6FAC00ECB35E /* BasicFormView.swift */,
+			);
+			path = Forms;
+			sourceTree = "<group>";
+		};
 		D9AACE5F2454C12200A86585 /* Dynamic items */ = {
 			isa = PBXGroup;
 			children = (
@@ -585,6 +596,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9950FC6245C6FAC00ECB35E /* BasicFormView.swift in Sources */,
 				D93185C22444C3FA0050F059 /* TapGestureView.swift in Sources */,
 				D9AACE632454C16100A86585 /* Restaurant.swift in Sources */,
 				D9D7E7FF244217520030643A /* SolidShapesView.swift in Sources */,
