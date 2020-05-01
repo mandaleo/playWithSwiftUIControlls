@@ -51,6 +51,7 @@
 		D9950FCB245C711E00ECB35E /* FormWithSectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9950FCA245C711E00ECB35E /* FormWithSectionsView.swift */; };
 		D9950FCE245C72DA00ECB35E /* PickersInFormsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9950FCD245C72DA00ECB35E /* PickersInFormsView.swift */; };
 		D9950FD1245C746300ECB35E /* DisablingElementsInFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9950FD0245C746300ECB35E /* DisablingElementsInFormView.swift */; };
+		D9950FD4245C758700ECB35E /* HideRowsInFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9950FD3245C758700ECB35E /* HideRowsInFormView.swift */; };
 		D9AACE612454C14000A86585 /* RestaurantDynamicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AACE602454C14000A86585 /* RestaurantDynamicView.swift */; };
 		D9AACE632454C16100A86585 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AACE622454C16100A86585 /* Restaurant.swift */; };
 		D9AACE652454C21500A86585 /* ListDynamicsItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AACE642454C21500A86585 /* ListDynamicsItemsView.swift */; };
@@ -117,6 +118,7 @@
 		D9950FCA245C711E00ECB35E /* FormWithSectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormWithSectionsView.swift; sourceTree = "<group>"; };
 		D9950FCD245C72DA00ECB35E /* PickersInFormsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickersInFormsView.swift; sourceTree = "<group>"; };
 		D9950FD0245C746300ECB35E /* DisablingElementsInFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisablingElementsInFormView.swift; sourceTree = "<group>"; };
+		D9950FD3245C758700ECB35E /* HideRowsInFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideRowsInFormView.swift; sourceTree = "<group>"; };
 		D9AACE602454C14000A86585 /* RestaurantDynamicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDynamicView.swift; sourceTree = "<group>"; };
 		D9AACE622454C16100A86585 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		D9AACE642454C21500A86585 /* ListDynamicsItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDynamicsItemsView.swift; sourceTree = "<group>"; };
@@ -427,6 +429,7 @@
 				D9950FC9245C710600ECB35E /* Form With Sections */,
 				D9950FCC245C72C600ECB35E /* Pickers */,
 				D9950FCF245C744900ECB35E /* DisablingElements */,
+				D9950FD2245C754F00ECB35E /* Hide Rows */,
 			);
 			path = Forms;
 			sourceTree = "<group>";
@@ -461,6 +464,14 @@
 				D9950FD0245C746300ECB35E /* DisablingElementsInFormView.swift */,
 			);
 			path = DisablingElements;
+			sourceTree = "<group>";
+		};
+		D9950FD2245C754F00ECB35E /* Hide Rows */ = {
+			isa = PBXGroup;
+			children = (
+				D9950FD3245C758700ECB35E /* HideRowsInFormView.swift */,
+			);
+			path = "Hide Rows";
 			sourceTree = "<group>";
 		};
 		D9AACE5F2454C12200A86585 /* Dynamic items */ = {
@@ -661,6 +672,7 @@
 				D93185CC2444CA0A0050F059 /* HideLabelsInPickersViews.swift in Sources */,
 				D931858C24422CC30050F059 /* CustomFrameView.swift in Sources */,
 				D931859A244246900050F059 /* DragGestureView.swift in Sources */,
+				D9950FD4245C758700ECB35E /* HideRowsInFormView.swift in Sources */,
 				D9950FBB245C31EB00ECB35E /* GroupedListView.swift in Sources */,
 				D931858A24422B370050F059 /* DifferentsLayoutUsingSizeClasses.swift in Sources */,
 				D93185B92444C0230050F059 /* ReadFromDatePicker.swift in Sources */,
