@@ -14,6 +14,7 @@
 		D92A6000245F3BD300A23545 /* AdjustPositionWithOffsetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A5FFF245F3BD300A23545 /* AdjustPositionWithOffsetView.swift */; };
 		D92A6003245F3D5900A23545 /* ColorPaddingOfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A6002245F3D5900A23545 /* ColorPaddingOfView.swift */; };
 		D92A6006245F445F00A23545 /* StackModifiersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A6005245F445F00A23545 /* StackModifiersView.swift */; };
+		D92A6009245F45F700A23545 /* DrawBorderAroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A6008245F45F700A23545 /* DrawBorderAroundView.swift */; };
 		D931858124421E7D0050F059 /* SpacersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D931858024421E7D0050F059 /* SpacersView.swift */; };
 		D9318583244223770050F059 /* ZStacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9318582244223770050F059 /* ZStacksView.swift */; };
 		D9318586244226120050F059 /* ReturDifferentsTypesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9318585244226120050F059 /* ReturDifferentsTypesView.swift */; };
@@ -105,6 +106,7 @@
 		D92A5FFF245F3BD300A23545 /* AdjustPositionWithOffsetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustPositionWithOffsetView.swift; sourceTree = "<group>"; };
 		D92A6002245F3D5900A23545 /* ColorPaddingOfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPaddingOfView.swift; sourceTree = "<group>"; };
 		D92A6005245F445F00A23545 /* StackModifiersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackModifiersView.swift; sourceTree = "<group>"; };
+		D92A6008245F45F700A23545 /* DrawBorderAroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawBorderAroundView.swift; sourceTree = "<group>"; };
 		D931858024421E7D0050F059 /* SpacersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacersView.swift; sourceTree = "<group>"; };
 		D9318582244223770050F059 /* ZStacksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStacksView.swift; sourceTree = "<group>"; };
 		D9318585244226120050F059 /* ReturDifferentsTypesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturDifferentsTypesView.swift; sourceTree = "<group>"; };
@@ -250,6 +252,7 @@
 				D92A5FFE245F3BBD00A23545 /* Adjust Position with Offset */,
 				D92A6001245F3D3D00A23545 /* Color the padding around view */,
 				D92A6004245F444700A23545 /* Stack Modifiers */,
+				D92A6007245F45E300A23545 /* Border */,
 			);
 			path = "Transforming Views";
 			sourceTree = "<group>";
@@ -276,6 +279,22 @@
 				D92A6005245F445F00A23545 /* StackModifiersView.swift */,
 			);
 			path = "Stack Modifiers";
+			sourceTree = "<group>";
+		};
+		D92A6007245F45E300A23545 /* Border */ = {
+			isa = PBXGroup;
+			children = (
+				D92A600A245F492F00A23545 /* Around */,
+			);
+			path = Border;
+			sourceTree = "<group>";
+		};
+		D92A600A245F492F00A23545 /* Around */ = {
+			isa = PBXGroup;
+			children = (
+				D92A6008245F45F700A23545 /* DrawBorderAroundView.swift */,
+			);
+			path = Around;
 			sourceTree = "<group>";
 		};
 		D931857E24421E260050F059 /* Paddings */ = {
@@ -990,6 +1009,7 @@
 				D92A5FF6245F371000A23545 /* DetailDismissItselfWithPresentationModeView.swift in Sources */,
 				D9D7E80824421CED0030643A /* PaddingsView.swift in Sources */,
 				D93185B62444BF030050F059 /* ReadFromPicker.swift in Sources */,
+				D92A6009245F45F700A23545 /* DrawBorderAroundView.swift in Sources */,
 				D9D7E7F52441D54E0030643A /* DrawImagesView.swift in Sources */,
 				D9318586244226120050F059 /* ReturDifferentsTypesView.swift in Sources */,
 				D9AACE612454C14000A86585 /* RestaurantDynamicView.swift in Sources */,
