@@ -44,6 +44,8 @@
 		D93920ED245F321900F4C7DC /* RestaurantFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93920EC245F321900F4C7DC /* RestaurantFake.swift */; };
 		D93920F1245F324400F4C7DC /* RestaurantRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93920F0245F324400F4C7DC /* RestaurantRowView.swift */; };
 		D93920F3245F33BB00F4C7DC /* RestaurantFakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93920F2245F33BB00F4C7DC /* RestaurantFakeView.swift */; };
+		D93920F6245F34ED00F4C7DC /* PresentWithSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93920F5245F34ED00F4C7DC /* PresentWithSheetView.swift */; };
+		D93920F8245F350C00F4C7DC /* PresentSheetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93920F7245F350C00F4C7DC /* PresentSheetDetailView.swift */; };
 		D9950FB0245C2C7300ECB35E /* RemoveItemsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9950FAF245C2C7300ECB35E /* RemoveItemsListView.swift */; };
 		D9950FB3245C2DD700ECB35E /* MoveItemsListview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9950FB2245C2DD700ECB35E /* MoveItemsListview.swift */; };
 		D9950FB6245C30ED00ECB35E /* AddSectionsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9950FB5245C30ED00ECB35E /* AddSectionsListView.swift */; };
@@ -126,6 +128,8 @@
 		D93920EC245F321900F4C7DC /* RestaurantFake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantFake.swift; sourceTree = "<group>"; };
 		D93920F0245F324400F4C7DC /* RestaurantRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantRowView.swift; sourceTree = "<group>"; };
 		D93920F2245F33BB00F4C7DC /* RestaurantFakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantFakeView.swift; sourceTree = "<group>"; };
+		D93920F5245F34ED00F4C7DC /* PresentWithSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentWithSheetView.swift; sourceTree = "<group>"; };
+		D93920F7245F350C00F4C7DC /* PresentSheetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentSheetDetailView.swift; sourceTree = "<group>"; };
 		D9950FAF245C2C7300ECB35E /* RemoveItemsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveItemsListView.swift; sourceTree = "<group>"; };
 		D9950FB2245C2DD700ECB35E /* MoveItemsListview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveItemsListview.swift; sourceTree = "<group>"; };
 		D9950FB5245C30ED00ECB35E /* AddSectionsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSectionsListView.swift; sourceTree = "<group>"; };
@@ -425,11 +429,36 @@
 		D93920EB245F320900F4C7DC /* DataSource */ = {
 			isa = PBXGroup;
 			children = (
+				D93920FA245F353400F4C7DC /* Detail */,
 				D93920EC245F321900F4C7DC /* RestaurantFake.swift */,
 				D93920F0245F324400F4C7DC /* RestaurantRowView.swift */,
-				D93920F2245F33BB00F4C7DC /* RestaurantFakeView.swift */,
 			);
 			path = DataSource;
+			sourceTree = "<group>";
+		};
+		D93920F4245F34D800F4C7DC /* Present with sheet */ = {
+			isa = PBXGroup;
+			children = (
+				D93920F9245F352700F4C7DC /* Detail */,
+				D93920F5245F34ED00F4C7DC /* PresentWithSheetView.swift */,
+			);
+			path = "Present with sheet";
+			sourceTree = "<group>";
+		};
+		D93920F9245F352700F4C7DC /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				D93920F7245F350C00F4C7DC /* PresentSheetDetailView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		D93920FA245F353400F4C7DC /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				D93920F2245F33BB00F4C7DC /* RestaurantFakeView.swift */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 		D93D4109245D776200994B4C /* PresentingViews */ = {
@@ -437,6 +466,7 @@
 			children = (
 				D93920E5245F309100F4C7DC /* Push */,
 				D93920E8245F31D200F4C7DC /* Push Tap in List */,
+				D93920F4245F34D800F4C7DC /* Present with sheet */,
 			);
 			path = PresentingViews;
 			sourceTree = "<group>";
@@ -918,6 +948,7 @@
 				D9950FC0245C331500ECB35E /* BackGroundColorOfRowsView.swift in Sources */,
 				D93185BC2444C1E70050F059 /* ReadFromSegmentControl.swift in Sources */,
 				D9AACE652454C21500A86585 /* ListDynamicsItemsView.swift in Sources */,
+				D93920F8245F350C00F4C7DC /* PresentSheetDetailView.swift in Sources */,
 				D9D7E7F92441D9D90030643A /* TileImagesView.swift in Sources */,
 				D93920ED245F321900F4C7DC /* RestaurantFake.swift in Sources */,
 				D9318583244223770050F059 /* ZStacksView.swift in Sources */,
@@ -925,6 +956,7 @@
 				D931859D24438E5C0050F059 /* GridStackView.swift in Sources */,
 				D93185AD2443985F0050F059 /* TextFieldBorderedView.swift in Sources */,
 				D93185A5244393DB0050F059 /* TappableButtonView.swift in Sources */,
+				D93920F6245F34ED00F4C7DC /* PresentWithSheetView.swift in Sources */,
 				D93185AF244398A60050F059 /* SecureTextFieldView.swift in Sources */,
 				D9950FBD245C320000ECB35E /* GroupedExampleRow.swift in Sources */,
 				D93185B32444BD850050F059 /* ReadSliderView.swift in Sources */,
