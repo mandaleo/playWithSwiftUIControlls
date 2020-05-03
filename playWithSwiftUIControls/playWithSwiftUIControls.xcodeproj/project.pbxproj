@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D92A5FF3245F36D000A23545 /* DismissItselfWithPresentationModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A5FF2245F36D000A23545 /* DismissItselfWithPresentationModeView.swift */; };
+		D92A5FF6245F371000A23545 /* DetailDismissItselfWithPresentationModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A5FF5245F371000A23545 /* DetailDismissItselfWithPresentationModeView.swift */; };
 		D931858124421E7D0050F059 /* SpacersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D931858024421E7D0050F059 /* SpacersView.swift */; };
 		D9318583244223770050F059 /* ZStacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9318582244223770050F059 /* ZStacksView.swift */; };
 		D9318586244226120050F059 /* ReturDifferentsTypesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9318585244226120050F059 /* ReturDifferentsTypesView.swift */; };
@@ -91,6 +93,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D92A5FF2245F36D000A23545 /* DismissItselfWithPresentationModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissItselfWithPresentationModeView.swift; sourceTree = "<group>"; };
+		D92A5FF5245F371000A23545 /* DetailDismissItselfWithPresentationModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailDismissItselfWithPresentationModeView.swift; sourceTree = "<group>"; };
 		D931858024421E7D0050F059 /* SpacersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacersView.swift; sourceTree = "<group>"; };
 		D9318582244223770050F059 /* ZStacksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStacksView.swift; sourceTree = "<group>"; };
 		D9318585244226120050F059 /* ReturDifferentsTypesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturDifferentsTypesView.swift; sourceTree = "<group>"; };
@@ -187,6 +191,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D92A5FEE245F365800A23545 /* Dismiss Itself */ = {
+			isa = PBXGroup;
+			children = (
+				D92A5FF1245F36BC00A23545 /* Presentation Mode */,
+			);
+			path = "Dismiss Itself";
+			sourceTree = "<group>";
+		};
+		D92A5FF1245F36BC00A23545 /* Presentation Mode */ = {
+			isa = PBXGroup;
+			children = (
+				D92A5FF4245F36F300A23545 /* Detail */,
+				D92A5FF2245F36D000A23545 /* DismissItselfWithPresentationModeView.swift */,
+			);
+			path = "Presentation Mode";
+			sourceTree = "<group>";
+		};
+		D92A5FF4245F36F300A23545 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				D92A5FF5245F371000A23545 /* DetailDismissItselfWithPresentationModeView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
 		D931857E24421E260050F059 /* Paddings */ = {
 			isa = PBXGroup;
 			children = (
@@ -467,6 +496,7 @@
 				D93920E5245F309100F4C7DC /* Push */,
 				D93920E8245F31D200F4C7DC /* Push Tap in List */,
 				D93920F4245F34D800F4C7DC /* Present with sheet */,
+				D92A5FEE245F365800A23545 /* Dismiss Itself */,
 			);
 			path = PresentingViews;
 			sourceTree = "<group>";
@@ -894,6 +924,7 @@
 				D931858124421E7D0050F059 /* SpacersView.swift in Sources */,
 				D9950FE0245C7A2600ECB35E /* EmbedViewsInTabView.swift in Sources */,
 				D93185A2244392D00050F059 /* ToggleSwitchView.swift in Sources */,
+				D92A5FF6245F371000A23545 /* DetailDismissItselfWithPresentationModeView.swift in Sources */,
 				D9D7E80824421CED0030643A /* PaddingsView.swift in Sources */,
 				D93185B62444BF030050F059 /* ReadFromPicker.swift in Sources */,
 				D9D7E7F52441D54E0030643A /* DrawImagesView.swift in Sources */,
@@ -931,6 +962,7 @@
 				D9950FB8245C315300ECB35E /* TaskRow.swift in Sources */,
 				D9950FCB245C711E00ECB35E /* FormWithSectionsView.swift in Sources */,
 				D9950FD1245C746300ECB35E /* DisablingElementsInFormView.swift in Sources */,
+				D92A5FF3245F36D000A23545 /* DismissItselfWithPresentationModeView.swift in Sources */,
 				D931858E24422DFD0050F059 /* GeometryReaderView.swift in Sources */,
 				D93185902442311F0050F059 /* IgnoreSafeAreaView.swift in Sources */,
 				D9318588244227860050F059 /* ForEachOfCreateView.swift in Sources */,
