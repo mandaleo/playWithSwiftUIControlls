@@ -9,13 +9,19 @@
 import SwiftUI
 
 struct DrawBorderInsideView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+  var body: some View {
+    VStack(spacing: 20) {
+      Circle()
+        .strokeBorder(Color.blue, lineWidth: 50)
+      
+      Circle()
+        .stroke(Color.blue, lineWidth: 50)
     }
+  }
 }
 
 struct DrawBorderInsideView_Previews: PreviewProvider {
-    static var previews: some View {
-        DrawBorderInsideView()
-    }
+  static var previews: some View {
+    DrawBorderInsideView()
+  }
 }

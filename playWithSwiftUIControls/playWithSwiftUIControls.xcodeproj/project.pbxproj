@@ -15,6 +15,7 @@
 		D92A6003245F3D5900A23545 /* ColorPaddingOfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A6002245F3D5900A23545 /* ColorPaddingOfView.swift */; };
 		D92A6006245F445F00A23545 /* StackModifiersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A6005245F445F00A23545 /* StackModifiersView.swift */; };
 		D92A6009245F45F700A23545 /* DrawBorderAroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A6008245F45F700A23545 /* DrawBorderAroundView.swift */; };
+		D92A600D245F496000A23545 /* DrawBorderInsideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A600C245F496000A23545 /* DrawBorderInsideView.swift */; };
 		D931858124421E7D0050F059 /* SpacersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D931858024421E7D0050F059 /* SpacersView.swift */; };
 		D9318583244223770050F059 /* ZStacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9318582244223770050F059 /* ZStacksView.swift */; };
 		D9318586244226120050F059 /* ReturDifferentsTypesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9318585244226120050F059 /* ReturDifferentsTypesView.swift */; };
@@ -107,6 +108,7 @@
 		D92A6002245F3D5900A23545 /* ColorPaddingOfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPaddingOfView.swift; sourceTree = "<group>"; };
 		D92A6005245F445F00A23545 /* StackModifiersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackModifiersView.swift; sourceTree = "<group>"; };
 		D92A6008245F45F700A23545 /* DrawBorderAroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawBorderAroundView.swift; sourceTree = "<group>"; };
+		D92A600C245F496000A23545 /* DrawBorderInsideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawBorderInsideView.swift; sourceTree = "<group>"; };
 		D931858024421E7D0050F059 /* SpacersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacersView.swift; sourceTree = "<group>"; };
 		D9318582244223770050F059 /* ZStacksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStacksView.swift; sourceTree = "<group>"; };
 		D9318585244226120050F059 /* ReturDifferentsTypesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturDifferentsTypesView.swift; sourceTree = "<group>"; };
@@ -285,6 +287,7 @@
 			isa = PBXGroup;
 			children = (
 				D92A600A245F492F00A23545 /* Around */,
+				D92A600B245F494800A23545 /* Inside */,
 			);
 			path = Border;
 			sourceTree = "<group>";
@@ -295,6 +298,14 @@
 				D92A6008245F45F700A23545 /* DrawBorderAroundView.swift */,
 			);
 			path = Around;
+			sourceTree = "<group>";
+		};
+		D92A600B245F494800A23545 /* Inside */ = {
+			isa = PBXGroup;
+			children = (
+				D92A600C245F496000A23545 /* DrawBorderInsideView.swift */,
+			);
+			path = Inside;
 			sourceTree = "<group>";
 		};
 		D931857E24421E260050F059 /* Paddings */ = {
@@ -1048,6 +1059,7 @@
 				D9950FD1245C746300ECB35E /* DisablingElementsInFormView.swift in Sources */,
 				D92A5FF3245F36D000A23545 /* DismissItselfWithPresentationModeView.swift in Sources */,
 				D931858E24422DFD0050F059 /* GeometryReaderView.swift in Sources */,
+				D92A600D245F496000A23545 /* DrawBorderInsideView.swift in Sources */,
 				D93185902442311F0050F059 /* IgnoreSafeAreaView.swift in Sources */,
 				D9318588244227860050F059 /* ForEachOfCreateView.swift in Sources */,
 				D9950FB3245C2DD700ECB35E /* MoveItemsListview.swift in Sources */,
