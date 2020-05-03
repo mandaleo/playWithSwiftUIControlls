@@ -12,6 +12,7 @@
 		D92A5FF9245F386D00A23545 /* DismissItselfWithBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A5FF8245F386D00A23545 /* DismissItselfWithBindingView.swift */; };
 		D92A5FFC245F387F00A23545 /* DetailDismissItselfWithBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A5FFB245F387F00A23545 /* DetailDismissItselfWithBindingView.swift */; };
 		D92A6000245F3BD300A23545 /* AdjustPositionWithOffsetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A5FFF245F3BD300A23545 /* AdjustPositionWithOffsetView.swift */; };
+		D92A6003245F3D5900A23545 /* ColorPaddingOfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A6002245F3D5900A23545 /* ColorPaddingOfView.swift */; };
 		D931858124421E7D0050F059 /* SpacersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D931858024421E7D0050F059 /* SpacersView.swift */; };
 		D9318583244223770050F059 /* ZStacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9318582244223770050F059 /* ZStacksView.swift */; };
 		D9318586244226120050F059 /* ReturDifferentsTypesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9318585244226120050F059 /* ReturDifferentsTypesView.swift */; };
@@ -101,6 +102,7 @@
 		D92A5FF8245F386D00A23545 /* DismissItselfWithBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissItselfWithBindingView.swift; sourceTree = "<group>"; };
 		D92A5FFB245F387F00A23545 /* DetailDismissItselfWithBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailDismissItselfWithBindingView.swift; sourceTree = "<group>"; };
 		D92A5FFF245F3BD300A23545 /* AdjustPositionWithOffsetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustPositionWithOffsetView.swift; sourceTree = "<group>"; };
+		D92A6002245F3D5900A23545 /* ColorPaddingOfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPaddingOfView.swift; sourceTree = "<group>"; };
 		D931858024421E7D0050F059 /* SpacersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacersView.swift; sourceTree = "<group>"; };
 		D9318582244223770050F059 /* ZStacksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStacksView.swift; sourceTree = "<group>"; };
 		D9318585244226120050F059 /* ReturDifferentsTypesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturDifferentsTypesView.swift; sourceTree = "<group>"; };
@@ -244,6 +246,7 @@
 			isa = PBXGroup;
 			children = (
 				D92A5FFE245F3BBD00A23545 /* Adjust Position with Offset */,
+				D92A6001245F3D3D00A23545 /* Color the padding around view */,
 			);
 			path = "Transforming Views";
 			sourceTree = "<group>";
@@ -254,6 +257,14 @@
 				D92A5FFF245F3BD300A23545 /* AdjustPositionWithOffsetView.swift */,
 			);
 			path = "Adjust Position with Offset";
+			sourceTree = "<group>";
+		};
+		D92A6001245F3D3D00A23545 /* Color the padding around view */ = {
+			isa = PBXGroup;
+			children = (
+				D92A6002245F3D5900A23545 /* ColorPaddingOfView.swift */,
+			);
+			path = "Color the padding around view";
 			sourceTree = "<group>";
 		};
 		D931857E24421E260050F059 /* Paddings */ = {
@@ -1035,6 +1046,7 @@
 				D93920F6245F34ED00F4C7DC /* PresentWithSheetView.swift in Sources */,
 				D93185AF244398A60050F059 /* SecureTextFieldView.swift in Sources */,
 				D9950FBD245C320000ECB35E /* GroupedExampleRow.swift in Sources */,
+				D92A6003245F3D5900A23545 /* ColorPaddingOfView.swift in Sources */,
 				D93185B32444BD850050F059 /* ReadSliderView.swift in Sources */,
 				D9950FC3245C344400ECB35E /* ImplicitStackingListView.swift in Sources */,
 			);
