@@ -13,6 +13,7 @@
 		D92A5FFC245F387F00A23545 /* DetailDismissItselfWithBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A5FFB245F387F00A23545 /* DetailDismissItselfWithBindingView.swift */; };
 		D92A6000245F3BD300A23545 /* AdjustPositionWithOffsetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A5FFF245F3BD300A23545 /* AdjustPositionWithOffsetView.swift */; };
 		D92A6003245F3D5900A23545 /* ColorPaddingOfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A6002245F3D5900A23545 /* ColorPaddingOfView.swift */; };
+		D92A6006245F445F00A23545 /* StackModifiersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A6005245F445F00A23545 /* StackModifiersView.swift */; };
 		D931858124421E7D0050F059 /* SpacersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D931858024421E7D0050F059 /* SpacersView.swift */; };
 		D9318583244223770050F059 /* ZStacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9318582244223770050F059 /* ZStacksView.swift */; };
 		D9318586244226120050F059 /* ReturDifferentsTypesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9318585244226120050F059 /* ReturDifferentsTypesView.swift */; };
@@ -103,6 +104,7 @@
 		D92A5FFB245F387F00A23545 /* DetailDismissItselfWithBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailDismissItselfWithBindingView.swift; sourceTree = "<group>"; };
 		D92A5FFF245F3BD300A23545 /* AdjustPositionWithOffsetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustPositionWithOffsetView.swift; sourceTree = "<group>"; };
 		D92A6002245F3D5900A23545 /* ColorPaddingOfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPaddingOfView.swift; sourceTree = "<group>"; };
+		D92A6005245F445F00A23545 /* StackModifiersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackModifiersView.swift; sourceTree = "<group>"; };
 		D931858024421E7D0050F059 /* SpacersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacersView.swift; sourceTree = "<group>"; };
 		D9318582244223770050F059 /* ZStacksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStacksView.swift; sourceTree = "<group>"; };
 		D9318585244226120050F059 /* ReturDifferentsTypesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturDifferentsTypesView.swift; sourceTree = "<group>"; };
@@ -247,6 +249,7 @@
 			children = (
 				D92A5FFE245F3BBD00A23545 /* Adjust Position with Offset */,
 				D92A6001245F3D3D00A23545 /* Color the padding around view */,
+				D92A6004245F444700A23545 /* Stack Modifiers */,
 			);
 			path = "Transforming Views";
 			sourceTree = "<group>";
@@ -265,6 +268,14 @@
 				D92A6002245F3D5900A23545 /* ColorPaddingOfView.swift */,
 			);
 			path = "Color the padding around view";
+			sourceTree = "<group>";
+		};
+		D92A6004245F444700A23545 /* Stack Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				D92A6005245F445F00A23545 /* StackModifiersView.swift */,
+			);
+			path = "Stack Modifiers";
 			sourceTree = "<group>";
 		};
 		D931857E24421E260050F059 /* Paddings */ = {
@@ -1022,6 +1033,7 @@
 				D9950FB3245C2DD700ECB35E /* MoveItemsListview.swift in Sources */,
 				D9D7E802244219960030643A /* BackgroundsViews.swift in Sources */,
 				D93185932442385B0050F059 /* VerticalScrollView.swift in Sources */,
+				D92A6006245F445F00A23545 /* StackModifiersView.swift in Sources */,
 				D9950FD9245C77C500ECB35E /* EmbedViewInNavigationView.swift in Sources */,
 				D931859824423A760050F059 /* CoverFlowEffectView.swift in Sources */,
 				D93920F1245F324400F4C7DC /* RestaurantRowView.swift in Sources */,
