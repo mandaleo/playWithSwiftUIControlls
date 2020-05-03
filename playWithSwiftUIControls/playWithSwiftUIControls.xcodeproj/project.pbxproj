@@ -11,6 +11,7 @@
 		D92A5FF6245F371000A23545 /* DetailDismissItselfWithPresentationModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A5FF5245F371000A23545 /* DetailDismissItselfWithPresentationModeView.swift */; };
 		D92A5FF9245F386D00A23545 /* DismissItselfWithBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A5FF8245F386D00A23545 /* DismissItselfWithBindingView.swift */; };
 		D92A5FFC245F387F00A23545 /* DetailDismissItselfWithBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A5FFB245F387F00A23545 /* DetailDismissItselfWithBindingView.swift */; };
+		D92A6000245F3BD300A23545 /* AdjustPositionWithOffsetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A5FFF245F3BD300A23545 /* AdjustPositionWithOffsetView.swift */; };
 		D931858124421E7D0050F059 /* SpacersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D931858024421E7D0050F059 /* SpacersView.swift */; };
 		D9318583244223770050F059 /* ZStacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9318582244223770050F059 /* ZStacksView.swift */; };
 		D9318586244226120050F059 /* ReturDifferentsTypesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9318585244226120050F059 /* ReturDifferentsTypesView.swift */; };
@@ -99,6 +100,7 @@
 		D92A5FF5245F371000A23545 /* DetailDismissItselfWithPresentationModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailDismissItselfWithPresentationModeView.swift; sourceTree = "<group>"; };
 		D92A5FF8245F386D00A23545 /* DismissItselfWithBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissItselfWithBindingView.swift; sourceTree = "<group>"; };
 		D92A5FFB245F387F00A23545 /* DetailDismissItselfWithBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailDismissItselfWithBindingView.swift; sourceTree = "<group>"; };
+		D92A5FFF245F3BD300A23545 /* AdjustPositionWithOffsetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustPositionWithOffsetView.swift; sourceTree = "<group>"; };
 		D931858024421E7D0050F059 /* SpacersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacersView.swift; sourceTree = "<group>"; };
 		D9318582244223770050F059 /* ZStacksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStacksView.swift; sourceTree = "<group>"; };
 		D9318585244226120050F059 /* ReturDifferentsTypesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturDifferentsTypesView.swift; sourceTree = "<group>"; };
@@ -236,6 +238,22 @@
 				D92A5FFB245F387F00A23545 /* DetailDismissItselfWithBindingView.swift */,
 			);
 			path = Detail;
+			sourceTree = "<group>";
+		};
+		D92A5FFD245F3B9A00A23545 /* Transforming Views */ = {
+			isa = PBXGroup;
+			children = (
+				D92A5FFE245F3BBD00A23545 /* Adjust Position with Offset */,
+			);
+			path = "Transforming Views";
+			sourceTree = "<group>";
+		};
+		D92A5FFE245F3BBD00A23545 /* Adjust Position with Offset */ = {
+			isa = PBXGroup;
+			children = (
+				D92A5FFF245F3BD300A23545 /* AdjustPositionWithOffsetView.swift */,
+			);
+			path = "Adjust Position with Offset";
 			sourceTree = "<group>";
 		};
 		D931857E24421E260050F059 /* Paddings */ = {
@@ -792,6 +810,7 @@
 				D931859E244392860050F059 /* Layouts */,
 				D931859F2443929E0050F059 /* Events */,
 				D93D4109245D776200994B4C /* PresentingViews */,
+				D92A5FFD245F3B9A00A23545 /* Transforming Views */,
 				D9D7E7DA2441CBF80030643A /* AppDelegate.swift */,
 				D9D7E7DC2441CBF80030643A /* SceneDelegate.swift */,
 				D9D7E7DE2441CBF80030643A /* ContentView.swift */,
@@ -1005,6 +1024,7 @@
 				D9AACE652454C21500A86585 /* ListDynamicsItemsView.swift in Sources */,
 				D93920F8245F350C00F4C7DC /* PresentSheetDetailView.swift in Sources */,
 				D92A5FF9245F386D00A23545 /* DismissItselfWithBindingView.swift in Sources */,
+				D92A6000245F3BD300A23545 /* AdjustPositionWithOffsetView.swift in Sources */,
 				D9D7E7F92441D9D90030643A /* TileImagesView.swift in Sources */,
 				D93920ED245F321900F4C7DC /* RestaurantFake.swift in Sources */,
 				D9318583244223770050F059 /* ZStacksView.swift in Sources */,
