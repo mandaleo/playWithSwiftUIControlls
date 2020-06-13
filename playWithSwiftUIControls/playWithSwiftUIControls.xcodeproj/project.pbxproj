@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		D908C36224950CC5003189AD /* DrawShadowAroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D908C36124950CC5003189AD /* DrawShadowAroundView.swift */; };
 		D908C36524950EB4003189AD /* ClipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D908C36424950EB4003189AD /* ClipView.swift */; };
+		D908C36924951097003189AD /* RotationEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D908C36824951097003189AD /* RotationEffectView.swift */; };
+		D908C36C249511FA003189AD /* Rotation3DEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D908C36B249511FA003189AD /* Rotation3DEffectView.swift */; };
 		D92A5FF3245F36D000A23545 /* DismissItselfWithPresentationModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A5FF2245F36D000A23545 /* DismissItselfWithPresentationModeView.swift */; };
 		D92A5FF6245F371000A23545 /* DetailDismissItselfWithPresentationModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A5FF5245F371000A23545 /* DetailDismissItselfWithPresentationModeView.swift */; };
 		D92A5FF9245F386D00A23545 /* DismissItselfWithBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A5FF8245F386D00A23545 /* DismissItselfWithBindingView.swift */; };
@@ -104,6 +106,8 @@
 /* Begin PBXFileReference section */
 		D908C36124950CC5003189AD /* DrawShadowAroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawShadowAroundView.swift; sourceTree = "<group>"; };
 		D908C36424950EB4003189AD /* ClipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipView.swift; sourceTree = "<group>"; };
+		D908C36824951097003189AD /* RotationEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationEffectView.swift; sourceTree = "<group>"; };
+		D908C36B249511FA003189AD /* Rotation3DEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotation3DEffectView.swift; sourceTree = "<group>"; };
 		D92A5FF2245F36D000A23545 /* DismissItselfWithPresentationModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissItselfWithPresentationModeView.swift; sourceTree = "<group>"; };
 		D92A5FF5245F371000A23545 /* DetailDismissItselfWithPresentationModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailDismissItselfWithPresentationModeView.swift; sourceTree = "<group>"; };
 		D92A5FF8245F386D00A23545 /* DismissItselfWithBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissItselfWithBindingView.swift; sourceTree = "<group>"; };
@@ -233,6 +237,31 @@
 			path = Clip;
 			sourceTree = "<group>";
 		};
+		D908C36624951075003189AD /* RotateView */ = {
+			isa = PBXGroup;
+			children = (
+				D908C36724951086003189AD /* RotationEffect */,
+				D908C36A249511E2003189AD /* Rotation3DEffect */,
+			);
+			path = RotateView;
+			sourceTree = "<group>";
+		};
+		D908C36724951086003189AD /* RotationEffect */ = {
+			isa = PBXGroup;
+			children = (
+				D908C36824951097003189AD /* RotationEffectView.swift */,
+			);
+			path = RotationEffect;
+			sourceTree = "<group>";
+		};
+		D908C36A249511E2003189AD /* Rotation3DEffect */ = {
+			isa = PBXGroup;
+			children = (
+				D908C36B249511FA003189AD /* Rotation3DEffectView.swift */,
+			);
+			path = Rotation3DEffect;
+			sourceTree = "<group>";
+		};
 		D92A5FEE245F365800A23545 /* Dismiss Itself */ = {
 			isa = PBXGroup;
 			children = (
@@ -285,6 +314,7 @@
 				D92A6007245F45E300A23545 /* Border */,
 				D908C35F24950C99003189AD /* Shadow */,
 				D908C36324950E89003189AD /* Clip */,
+				D908C36624951075003189AD /* RotateView */,
 			);
 			path = "Transforming Views";
 			sourceTree = "<group>";
@@ -1051,6 +1081,7 @@
 				D9D7E80824421CED0030643A /* PaddingsView.swift in Sources */,
 				D93185B62444BF030050F059 /* ReadFromPicker.swift in Sources */,
 				D92A6009245F45F700A23545 /* DrawBorderAroundView.swift in Sources */,
+				D908C36924951097003189AD /* RotationEffectView.swift in Sources */,
 				D9D7E7F52441D54E0030643A /* DrawImagesView.swift in Sources */,
 				D9318586244226120050F059 /* ReturDifferentsTypesView.swift in Sources */,
 				D9AACE612454C14000A86585 /* RestaurantDynamicView.swift in Sources */,
@@ -1065,6 +1096,7 @@
 				D93185BF2444C2F90050F059 /* ReadFromStepper.swift in Sources */,
 				D93185CC2444CA0A0050F059 /* HideLabelsInPickersViews.swift in Sources */,
 				D931858C24422CC30050F059 /* CustomFrameView.swift in Sources */,
+				D908C36C249511FA003189AD /* Rotation3DEffectView.swift in Sources */,
 				D931859A244246900050F059 /* DragGestureView.swift in Sources */,
 				D9950FD4245C758700ECB35E /* HideRowsInFormView.swift in Sources */,
 				D9950FEE245C806700ECB35E /* MultipleAlertsView.swift in Sources */,
