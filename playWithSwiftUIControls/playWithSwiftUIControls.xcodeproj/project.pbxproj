@@ -16,6 +16,7 @@
 		D908C3752495166F003189AD /* OpacityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D908C3742495166F003189AD /* OpacityView.swift */; };
 		D908C378249516BF003189AD /* AccentColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D908C377249516BF003189AD /* AccentColorView.swift */; };
 		D908C37B2495181C003189AD /* MaskViewWithAnotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D908C37A2495181C003189AD /* MaskViewWithAnotherView.swift */; };
+		D908C37E249518AC003189AD /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D908C37D249518AC003189AD /* BlurView.swift */; };
 		D92A5FF3245F36D000A23545 /* DismissItselfWithPresentationModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A5FF2245F36D000A23545 /* DismissItselfWithPresentationModeView.swift */; };
 		D92A5FF6245F371000A23545 /* DetailDismissItselfWithPresentationModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A5FF5245F371000A23545 /* DetailDismissItselfWithPresentationModeView.swift */; };
 		D92A5FF9245F386D00A23545 /* DismissItselfWithBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A5FF8245F386D00A23545 /* DismissItselfWithBindingView.swift */; };
@@ -118,6 +119,7 @@
 		D908C3742495166F003189AD /* OpacityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpacityView.swift; sourceTree = "<group>"; };
 		D908C377249516BF003189AD /* AccentColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccentColorView.swift; sourceTree = "<group>"; };
 		D908C37A2495181C003189AD /* MaskViewWithAnotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskViewWithAnotherView.swift; sourceTree = "<group>"; };
+		D908C37D249518AC003189AD /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		D92A5FF2245F36D000A23545 /* DismissItselfWithPresentationModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissItselfWithPresentationModeView.swift; sourceTree = "<group>"; };
 		D92A5FF5245F371000A23545 /* DetailDismissItselfWithPresentationModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailDismissItselfWithPresentationModeView.swift; sourceTree = "<group>"; };
 		D92A5FF8245F386D00A23545 /* DismissItselfWithBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissItselfWithBindingView.swift; sourceTree = "<group>"; };
@@ -312,6 +314,14 @@
 			path = "Mask View with Other";
 			sourceTree = "<group>";
 		};
+		D908C37C24951896003189AD /* Blur */ = {
+			isa = PBXGroup;
+			children = (
+				D908C37D249518AC003189AD /* BlurView.swift */,
+			);
+			path = Blur;
+			sourceTree = "<group>";
+		};
 		D92A5FEE245F365800A23545 /* Dismiss Itself */ = {
 			isa = PBXGroup;
 			children = (
@@ -370,6 +380,7 @@
 				D908C37324951643003189AD /* Opacity View */,
 				D908C376249516A6003189AD /* Accent Color */,
 				D908C3792495172D003189AD /* Mask View with Other */,
+				D908C37C24951896003189AD /* Blur */,
 			);
 			path = "Transforming Views";
 			sourceTree = "<group>";
@@ -1142,6 +1153,7 @@
 				D908C36924951097003189AD /* RotationEffectView.swift in Sources */,
 				D9D7E7F52441D54E0030643A /* DrawImagesView.swift in Sources */,
 				D9318586244226120050F059 /* ReturDifferentsTypesView.swift in Sources */,
+				D908C37E249518AC003189AD /* BlurView.swift in Sources */,
 				D9AACE612454C14000A86585 /* RestaurantDynamicView.swift in Sources */,
 				D9950FE6245C7D0900ECB35E /* HideStatusBarView.swift in Sources */,
 				D93185C42444C5A00050F059 /* ModifyTappableAreaOfGestureView.swift in Sources */,
