@@ -11,6 +11,7 @@
 		D908C36524950EB4003189AD /* ClipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D908C36424950EB4003189AD /* ClipView.swift */; };
 		D908C36924951097003189AD /* RotationEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D908C36824951097003189AD /* RotationEffectView.swift */; };
 		D908C36C249511FA003189AD /* Rotation3DEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D908C36B249511FA003189AD /* Rotation3DEffectView.swift */; };
+		D908C36F249513E2003189AD /* ScaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D908C36E249513E2003189AD /* ScaleView.swift */; };
 		D92A5FF3245F36D000A23545 /* DismissItselfWithPresentationModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A5FF2245F36D000A23545 /* DismissItselfWithPresentationModeView.swift */; };
 		D92A5FF6245F371000A23545 /* DetailDismissItselfWithPresentationModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A5FF5245F371000A23545 /* DetailDismissItselfWithPresentationModeView.swift */; };
 		D92A5FF9245F386D00A23545 /* DismissItselfWithBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A5FF8245F386D00A23545 /* DismissItselfWithBindingView.swift */; };
@@ -108,6 +109,7 @@
 		D908C36424950EB4003189AD /* ClipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipView.swift; sourceTree = "<group>"; };
 		D908C36824951097003189AD /* RotationEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationEffectView.swift; sourceTree = "<group>"; };
 		D908C36B249511FA003189AD /* Rotation3DEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotation3DEffectView.swift; sourceTree = "<group>"; };
+		D908C36E249513E2003189AD /* ScaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleView.swift; sourceTree = "<group>"; };
 		D92A5FF2245F36D000A23545 /* DismissItselfWithPresentationModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissItselfWithPresentationModeView.swift; sourceTree = "<group>"; };
 		D92A5FF5245F371000A23545 /* DetailDismissItselfWithPresentationModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailDismissItselfWithPresentationModeView.swift; sourceTree = "<group>"; };
 		D92A5FF8245F386D00A23545 /* DismissItselfWithBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissItselfWithBindingView.swift; sourceTree = "<group>"; };
@@ -262,6 +264,14 @@
 			path = Rotation3DEffect;
 			sourceTree = "<group>";
 		};
+		D908C36D249512B2003189AD /* Scale */ = {
+			isa = PBXGroup;
+			children = (
+				D908C36E249513E2003189AD /* ScaleView.swift */,
+			);
+			path = Scale;
+			sourceTree = "<group>";
+		};
 		D92A5FEE245F365800A23545 /* Dismiss Itself */ = {
 			isa = PBXGroup;
 			children = (
@@ -315,6 +325,7 @@
 				D908C35F24950C99003189AD /* Shadow */,
 				D908C36324950E89003189AD /* Clip */,
 				D908C36624951075003189AD /* RotateView */,
+				D908C36D249512B2003189AD /* Scale */,
 			);
 			path = "Transforming Views";
 			sourceTree = "<group>";
@@ -1079,6 +1090,7 @@
 				D93185A2244392D00050F059 /* ToggleSwitchView.swift in Sources */,
 				D92A5FF6245F371000A23545 /* DetailDismissItselfWithPresentationModeView.swift in Sources */,
 				D9D7E80824421CED0030643A /* PaddingsView.swift in Sources */,
+				D908C36F249513E2003189AD /* ScaleView.swift in Sources */,
 				D93185B62444BF030050F059 /* ReadFromPicker.swift in Sources */,
 				D92A6009245F45F700A23545 /* DrawBorderAroundView.swift in Sources */,
 				D908C36924951097003189AD /* RotationEffectView.swift in Sources */,
