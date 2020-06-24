@@ -111,6 +111,7 @@
 		D9D866F724A38857005C2E4B /* TintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D866F624A38857005C2E4B /* TintView.swift */; };
 		D9D866F924A3889D005C2E4B /* SaturationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D866F824A3889D005C2E4B /* SaturationView.swift */; };
 		D9D866FB24A388D7005C2E4B /* ContrastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D866FA24A388D7005C2E4B /* ContrastView.swift */; };
+		D9D866FF24A38AAE005C2E4B /* BuiltInShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D866FE24A38AAE005C2E4B /* BuiltInShapesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -220,6 +221,7 @@
 		D9D866F624A38857005C2E4B /* TintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TintView.swift; sourceTree = "<group>"; };
 		D9D866F824A3889D005C2E4B /* SaturationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaturationView.swift; sourceTree = "<group>"; };
 		D9D866FA24A388D7005C2E4B /* ContrastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContrastView.swift; sourceTree = "<group>"; };
+		D9D866FE24A38AAE005C2E4B /* BuiltInShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuiltInShapesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -998,6 +1000,7 @@
 				D931859F2443929E0050F059 /* Events */,
 				D93D4109245D776200994B4C /* PresentingViews */,
 				D92A5FFD245F3B9A00A23545 /* Transforming Views */,
+				D9D866FC24A389BC005C2E4B /* Drawing */,
 				D9D7E7DA2441CBF80030643A /* AppDelegate.swift */,
 				D9D7E7DC2441CBF80030643A /* SceneDelegate.swift */,
 				D9D7E7DE2441CBF80030643A /* ContentView.swift */,
@@ -1079,6 +1082,22 @@
 				D9D866F424A34D45005C2E4B /* BlendView.swift */,
 			);
 			path = Blend;
+			sourceTree = "<group>";
+		};
+		D9D866FC24A389BC005C2E4B /* Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				D9D866FD24A389C8005C2E4B /* Shapes */,
+			);
+			path = Drawing;
+			sourceTree = "<group>";
+		};
+		D9D866FD24A389C8005C2E4B /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				D9D866FE24A38AAE005C2E4B /* BuiltInShapesView.swift */,
+			);
+			path = Shapes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1202,6 +1221,7 @@
 				D9950FF5245C82A200ECB35E /* ShowActionSheetView.swift in Sources */,
 				D9318595244238C00050F059 /* HorizontalScrollView.swift in Sources */,
 				D9D7E7F72441D8D40030643A /* ScaleImagesView.swift in Sources */,
+				D9D866FF24A38AAE005C2E4B /* BuiltInShapesView.swift in Sources */,
 				D9D7E7DD2441CBF80030643A /* SceneDelegate.swift in Sources */,
 				D93185C62444C6930050F059 /* AddingGesturesView.swift in Sources */,
 				D93920F3245F33BB00F4C7DC /* RestaurantFakeView.swift in Sources */,
