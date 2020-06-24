@@ -107,6 +107,10 @@
 		D9D7E802244219960030643A /* BackgroundsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E801244219960030643A /* BackgroundsViews.swift */; };
 		D9D7E80524421B940030643A /* AlignmentStacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E80424421B940030643A /* AlignmentStacksView.swift */; };
 		D9D7E80824421CED0030643A /* PaddingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D7E80724421CED0030643A /* PaddingsView.swift */; };
+		D9D866F524A34D45005C2E4B /* BlendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D866F424A34D45005C2E4B /* BlendView.swift */; };
+		D9D866F724A38857005C2E4B /* TintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D866F624A38857005C2E4B /* TintView.swift */; };
+		D9D866F924A3889D005C2E4B /* SaturationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D866F824A3889D005C2E4B /* SaturationView.swift */; };
+		D9D866FB24A388D7005C2E4B /* ContrastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D866FA24A388D7005C2E4B /* ContrastView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -212,6 +216,10 @@
 		D9D7E801244219960030643A /* BackgroundsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundsViews.swift; sourceTree = "<group>"; };
 		D9D7E80424421B940030643A /* AlignmentStacksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentStacksView.swift; sourceTree = "<group>"; };
 		D9D7E80724421CED0030643A /* PaddingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingsView.swift; sourceTree = "<group>"; };
+		D9D866F424A34D45005C2E4B /* BlendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendView.swift; sourceTree = "<group>"; };
+		D9D866F624A38857005C2E4B /* TintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TintView.swift; sourceTree = "<group>"; };
+		D9D866F824A3889D005C2E4B /* SaturationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaturationView.swift; sourceTree = "<group>"; };
+		D9D866FA24A388D7005C2E4B /* ContrastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContrastView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -381,6 +389,7 @@
 				D908C376249516A6003189AD /* Accent Color */,
 				D908C3792495172D003189AD /* Mask View with Other */,
 				D908C37C24951896003189AD /* Blur */,
+				D9D866F324A34D22005C2E4B /* Blend */,
 			);
 			path = "Transforming Views";
 			sourceTree = "<group>";
@@ -1024,6 +1033,9 @@
 				D9D7E7F62441D8D40030643A /* ScaleImagesView.swift */,
 				D9D7E7F82441D9D90030643A /* TileImagesView.swift */,
 				D93185A6244395420050F059 /* DisableOverlaycolorForImagesView.swift */,
+				D9D866F624A38857005C2E4B /* TintView.swift */,
+				D9D866F824A3889D005C2E4B /* SaturationView.swift */,
+				D9D866FA24A388D7005C2E4B /* ContrastView.swift */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -1059,6 +1071,14 @@
 				D9318582244223770050F059 /* ZStacksView.swift */,
 			);
 			path = StacksView;
+			sourceTree = "<group>";
+		};
+		D9D866F324A34D22005C2E4B /* Blend */ = {
+			isa = PBXGroup;
+			children = (
+				D9D866F424A34D45005C2E4B /* BlendView.swift */,
+			);
+			path = Blend;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1150,6 +1170,7 @@
 				D908C36F249513E2003189AD /* ScaleView.swift in Sources */,
 				D93185B62444BF030050F059 /* ReadFromPicker.swift in Sources */,
 				D92A6009245F45F700A23545 /* DrawBorderAroundView.swift in Sources */,
+				D9D866F524A34D45005C2E4B /* BlendView.swift in Sources */,
 				D908C36924951097003189AD /* RotationEffectView.swift in Sources */,
 				D9D7E7F52441D54E0030643A /* DrawImagesView.swift in Sources */,
 				D9318586244226120050F059 /* ReturDifferentsTypesView.swift in Sources */,
@@ -1176,6 +1197,7 @@
 				D93185A7244395420050F059 /* DisableOverlaycolorForImagesView.swift in Sources */,
 				D93186032454BE990050F059 /* ListStaticItemsView.swift in Sources */,
 				D9950FF1245C81C000ECB35E /* AddActionInAlertView.swift in Sources */,
+				D9D866F724A38857005C2E4B /* TintView.swift in Sources */,
 				D9D7E7F02441CFCE0030643A /* TruncateTextsViews.swift in Sources */,
 				D9950FF5245C82A200ECB35E /* ShowActionSheetView.swift in Sources */,
 				D9318595244238C00050F059 /* HorizontalScrollView.swift in Sources */,
@@ -1186,6 +1208,7 @@
 				D93920EA245F31E600F4C7DC /* PushTapInListview.swift in Sources */,
 				D9950FF8245C841400ECB35E /* AddContextMenuView.swift in Sources */,
 				D9950FB8245C315300ECB35E /* TaskRow.swift in Sources */,
+				D9D866F924A3889D005C2E4B /* SaturationView.swift in Sources */,
 				D92A5FFC245F387F00A23545 /* DetailDismissItselfWithBindingView.swift in Sources */,
 				D9950FCB245C711E00ECB35E /* FormWithSectionsView.swift in Sources */,
 				D9950FD1245C746300ECB35E /* DisablingElementsInFormView.swift in Sources */,
@@ -1219,6 +1242,7 @@
 				D93920ED245F321900F4C7DC /* RestaurantFake.swift in Sources */,
 				D9318583244223770050F059 /* ZStacksView.swift in Sources */,
 				D9D7E7DF2441CBF80030643A /* ContentView.swift in Sources */,
+				D9D866FB24A388D7005C2E4B /* ContrastView.swift in Sources */,
 				D931859D24438E5C0050F059 /* GridStackView.swift in Sources */,
 				D908C37224951604003189AD /* RoundCornerView.swift in Sources */,
 				D93185AD2443985F0050F059 /* TextFieldBorderedView.swift in Sources */,
