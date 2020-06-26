@@ -17,6 +17,12 @@
 		D908C378249516BF003189AD /* AccentColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D908C377249516BF003189AD /* AccentColorView.swift */; };
 		D908C37B2495181C003189AD /* MaskViewWithAnotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D908C37A2495181C003189AD /* MaskViewWithAnotherView.swift */; };
 		D908C37E249518AC003189AD /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D908C37D249518AC003189AD /* BlurView.swift */; };
+		D9242B0024A5FDEE00850063 /* SpiroSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9242AFF24A5FDEE00850063 /* SpiroSquare.swift */; };
+		D9242B0224A5FE5900850063 /* CustomPathsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9242B0124A5FE5900850063 /* CustomPathsView.swift */; };
+		D9242B0724A5FF1000850063 /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9242B0624A5FF1000850063 /* Star.swift */; };
+		D9242B0924A6027B00850063 /* Checkerboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9242B0824A6027B00850063 /* Checkerboard.swift */; };
+		D9242B0C24A6038E00850063 /* UIBezierPath+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9242B0B24A6038E00850063 /* UIBezierPath+Extension.swift */; };
+		D9242B0E24A6044C00850063 /* ScaledBezier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9242B0D24A6044C00850063 /* ScaledBezier.swift */; };
 		D92A5FF3245F36D000A23545 /* DismissItselfWithPresentationModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A5FF2245F36D000A23545 /* DismissItselfWithPresentationModeView.swift */; };
 		D92A5FF6245F371000A23545 /* DetailDismissItselfWithPresentationModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A5FF5245F371000A23545 /* DetailDismissItselfWithPresentationModeView.swift */; };
 		D92A5FF9245F386D00A23545 /* DismissItselfWithBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92A5FF8245F386D00A23545 /* DismissItselfWithBindingView.swift */; };
@@ -125,6 +131,12 @@
 		D908C377249516BF003189AD /* AccentColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccentColorView.swift; sourceTree = "<group>"; };
 		D908C37A2495181C003189AD /* MaskViewWithAnotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskViewWithAnotherView.swift; sourceTree = "<group>"; };
 		D908C37D249518AC003189AD /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		D9242AFF24A5FDEE00850063 /* SpiroSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiroSquare.swift; sourceTree = "<group>"; };
+		D9242B0124A5FE5900850063 /* CustomPathsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPathsView.swift; sourceTree = "<group>"; };
+		D9242B0624A5FF1000850063 /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
+		D9242B0824A6027B00850063 /* Checkerboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkerboard.swift; sourceTree = "<group>"; };
+		D9242B0B24A6038E00850063 /* UIBezierPath+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBezierPath+Extension.swift"; sourceTree = "<group>"; };
+		D9242B0D24A6044C00850063 /* ScaledBezier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaledBezier.swift; sourceTree = "<group>"; };
 		D92A5FF2245F36D000A23545 /* DismissItselfWithPresentationModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissItselfWithPresentationModeView.swift; sourceTree = "<group>"; };
 		D92A5FF5245F371000A23545 /* DetailDismissItselfWithPresentationModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailDismissItselfWithPresentationModeView.swift; sourceTree = "<group>"; };
 		D92A5FF8245F386D00A23545 /* DismissItselfWithBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissItselfWithBindingView.swift; sourceTree = "<group>"; };
@@ -330,6 +342,35 @@
 				D908C37D249518AC003189AD /* BlurView.swift */,
 			);
 			path = Blur;
+			sourceTree = "<group>";
+		};
+		D9242AFD24A5FD6100850063 /* Custom Path */ = {
+			isa = PBXGroup;
+			children = (
+				D9242AFE24A5FDD300850063 /* Examples */,
+				D9242B0124A5FE5900850063 /* CustomPathsView.swift */,
+			);
+			path = "Custom Path";
+			sourceTree = "<group>";
+		};
+		D9242AFE24A5FDD300850063 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				D9242B0A24A6037500850063 /* UIBezierPath */,
+				D9242AFF24A5FDEE00850063 /* SpiroSquare.swift */,
+				D9242B0624A5FF1000850063 /* Star.swift */,
+				D9242B0824A6027B00850063 /* Checkerboard.swift */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		D9242B0A24A6037500850063 /* UIBezierPath */ = {
+			isa = PBXGroup;
+			children = (
+				D9242B0B24A6038E00850063 /* UIBezierPath+Extension.swift */,
+				D9242B0D24A6044C00850063 /* ScaledBezier.swift */,
+			);
+			path = UIBezierPath;
 			sourceTree = "<group>";
 		};
 		D92A5FEE245F365800A23545 /* Dismiss Itself */ = {
@@ -1088,6 +1129,7 @@
 			isa = PBXGroup;
 			children = (
 				D9D866FD24A389C8005C2E4B /* Shapes */,
+				D9242AFD24A5FD6100850063 /* Custom Path */,
 			);
 			path = Drawing;
 			sourceTree = "<group>";
@@ -1174,6 +1216,7 @@
 				D9950FC6245C6FAC00ECB35E /* BasicFormView.swift in Sources */,
 				D93185C22444C3FA0050F059 /* TapGestureView.swift in Sources */,
 				D9950FE3245C7B2C00ECB35E /* GroupView.swift in Sources */,
+				D9242B0724A5FF1000850063 /* Star.swift in Sources */,
 				D9AACE632454C16100A86585 /* Restaurant.swift in Sources */,
 				D9D7E7FF244217520030643A /* SolidShapesView.swift in Sources */,
 				D9D7E7FC2441DB1F0030643A /* RenderGradientView.swift in Sources */,
@@ -1209,6 +1252,7 @@
 				D908C36C249511FA003189AD /* Rotation3DEffectView.swift in Sources */,
 				D931859A244246900050F059 /* DragGestureView.swift in Sources */,
 				D9950FD4245C758700ECB35E /* HideRowsInFormView.swift in Sources */,
+				D9242B0224A5FE5900850063 /* CustomPathsView.swift in Sources */,
 				D9950FEE245C806700ECB35E /* MultipleAlertsView.swift in Sources */,
 				D9950FBB245C31EB00ECB35E /* GroupedListView.swift in Sources */,
 				D931858A24422B370050F059 /* DifferentsLayoutUsingSizeClasses.swift in Sources */,
@@ -1223,6 +1267,7 @@
 				D9D7E7F72441D8D40030643A /* ScaleImagesView.swift in Sources */,
 				D9D866FF24A38AAE005C2E4B /* BuiltInShapesView.swift in Sources */,
 				D9D7E7DD2441CBF80030643A /* SceneDelegate.swift in Sources */,
+				D9242B0E24A6044C00850063 /* ScaledBezier.swift in Sources */,
 				D93185C62444C6930050F059 /* AddingGesturesView.swift in Sources */,
 				D93920F3245F33BB00F4C7DC /* RestaurantFakeView.swift in Sources */,
 				D93920EA245F31E600F4C7DC /* PushTapInListview.swift in Sources */,
@@ -1233,6 +1278,7 @@
 				D9950FCB245C711E00ECB35E /* FormWithSectionsView.swift in Sources */,
 				D9950FD1245C746300ECB35E /* DisablingElementsInFormView.swift in Sources */,
 				D92A5FF3245F36D000A23545 /* DismissItselfWithPresentationModeView.swift in Sources */,
+				D9242B0024A5FDEE00850063 /* SpiroSquare.swift in Sources */,
 				D931858E24422DFD0050F059 /* GeometryReaderView.swift in Sources */,
 				D92A600D245F496000A23545 /* DrawBorderInsideView.swift in Sources */,
 				D93185902442311F0050F059 /* IgnoreSafeAreaView.swift in Sources */,
@@ -1256,12 +1302,14 @@
 				D9AACE652454C21500A86585 /* ListDynamicsItemsView.swift in Sources */,
 				D93920F8245F350C00F4C7DC /* PresentSheetDetailView.swift in Sources */,
 				D92A5FF9245F386D00A23545 /* DismissItselfWithBindingView.swift in Sources */,
+				D9242B0924A6027B00850063 /* Checkerboard.swift in Sources */,
 				D92A6000245F3BD300A23545 /* AdjustPositionWithOffsetView.swift in Sources */,
 				D908C36524950EB4003189AD /* ClipView.swift in Sources */,
 				D9D7E7F92441D9D90030643A /* TileImagesView.swift in Sources */,
 				D93920ED245F321900F4C7DC /* RestaurantFake.swift in Sources */,
 				D9318583244223770050F059 /* ZStacksView.swift in Sources */,
 				D9D7E7DF2441CBF80030643A /* ContentView.swift in Sources */,
+				D9242B0C24A6038E00850063 /* UIBezierPath+Extension.swift in Sources */,
 				D9D866FB24A388D7005C2E4B /* ContrastView.swift in Sources */,
 				D931859D24438E5C0050F059 /* GridStackView.swift in Sources */,
 				D908C37224951604003189AD /* RoundCornerView.swift in Sources */,
